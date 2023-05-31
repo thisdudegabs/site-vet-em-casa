@@ -1,0 +1,51 @@
+.footer {
+  background: #f0f8ff;
+  padding: 50px;
+  padding-bottom: 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.logo-container p {
+  margin-top: 20px;
+}
+
+.logo_footer {
+  margin-right: 10px;
+}
+
+.footer_bottom p {
+  align-items: center;
+}
+
+.quick_link {
+  margin-left: 10px;
+  border: none !important;
+  background: transparent !important;
+}
+
+.quick_link a {
+  color: rgb(148, 0, 211);
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.quick_link a:hover {
+  color: #ff8c00;
+}
+
+.footer_link-title {
+  margin-left: 10px;
+  color: #987ea4;
+}
+
+.office_info {
+  color: rgba(148, 0, 211);
+  font-weight: 300;
+  margin-left: 10px;
+}
