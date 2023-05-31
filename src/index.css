@@ -58,7 +58,7 @@ ul {
 }
 
 .section_description {
-  color: #4b0082;
+  color: #987ea4;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -69,7 +69,7 @@ section {
 
 .btn {
   padding: 7px 15px;
-  background: #4b0082;
+  background: #987ea4;
   color: #fff;
   border: none;
   outline: none;
@@ -79,7 +79,7 @@ section {
 
 .btn:hover {
   color: #fff !important;
-  background: #000c6bd0;
+  background: #987ea4;
 }
 
 @media only screen and (max-width: 768px) {
