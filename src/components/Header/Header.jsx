@@ -41,7 +41,7 @@ const Header = () => {
   const toggleMenu = () => menuRef.current.classList.toggle("menu_active");
 
   return (
-    /* ======== naveção principal ========= */
+    /* ======== naveção principal =========*/
     <header>
       <div className="main_navbar">
         <Container>

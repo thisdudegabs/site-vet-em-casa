@@ -1,7 +1,8 @@
 import React from "react";
 
-const Helmet = () => {
-  return <div></div>;
+const Helmet = (props) => {
+  document.title = "Vet Em Casa" + props.title;
+  return <div className="w-100">{props.children}</div>;
 };
 
 export default Helmet;
