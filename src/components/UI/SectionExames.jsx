@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import ImgVacina from "../../assets/all-images/Animais/dog6.jpg";
-import "../../styles/section-vacinas.css";
+import ImgExames from "../../assets/all-images/Animais/dog8.jpg";
+import "../../styles/section-exames.css";
 
-const SectionVacinas = ({ vacinaClass }) => {
+const SectionExames = ({ examesClass }) => {
   return (
     <section
-      className="section_vacina"
+      className="section_exames"
       style={
-        vacinaClass === "VacinaPage"
+        examesClass === "ExamesPage"
           ? { marginTop: "0px" }
           : { marginTop: "280px" }
       }
@@ -16,10 +16,14 @@ const SectionVacinas = ({ vacinaClass }) => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="section_vacina-conteudo">
-              <h2 className="section_title">
-                A vacinação do seu Pet está em dia?
-              </h2>
+            <div className="exames_img">
+              <img src={ImgExames} alt="" className="w-100" />
+            </div>
+          </Col>
+
+          <Col lg="6" md="6">
+            <div className="section_exames-conteudo">
+              <h2 className="section_title">Realizamos exames na sua casa!</h2>
               <p className="description">
                 Incididunt enim ea sit commodo. Enim anim non reprehenderit
                 minim laborum cupidatat. Reprehenderit voluptate reprehenderit
@@ -40,16 +44,10 @@ const SectionVacinas = ({ vacinaClass }) => {
               </p>
             </div>
           </Col>
-
-          <Col lg="6" md="6">
-            <div className="vacina_img">
-              <img src={ImgVacina} alt="" className="w-100" />
-            </div>
-          </Col>
         </Row>
       </Container>
     </section>
   );
 };
 
-export default SectionVacinas;
+export default SectionExames;

@@ -5,6 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import HeroSlider from "../components/UI/HeroSlider";
 import SectionConsulta from "../components/UI/SectionConsulta";
 import SectionVacinas from "../components/UI/SectionVacinas";
+import SectionExames from "../components/UI/SectionExames";
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       {/* ========== parte sobre Vacinas ============== */}
       <SectionVacinas />
 
-      {/* ========== parte sobre Vacinas ============== */}
+      {/* ========== parte sobre Exanes ============== */}
+      <SectionExames />
     </Helmet>
   );
 };
