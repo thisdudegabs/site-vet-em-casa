@@ -23,7 +23,7 @@ const HeroSlider = () => {
       <div className="slider_item slider_item-01 mt0">
         <Container>
           <div className="slider_content">
-            <h1 className="text-light mb4">Agende uma visita na sua casa!</h1>
+            <h2 className="text-light mb4">Fazemos consulta na sua casa!</h2>
 
             <button className="btn reserve_btn mt-4">
               <Link to="/cars">Quero Agendar</Link>
@@ -35,7 +35,7 @@ const HeroSlider = () => {
       <div className="slider_item slider_item-02 mt0">
         <Container>
           <div className="slider_content">
-            <h1 className="text-light mb4">Precisando de Exames?</h1>
+            <h2 className="text-light mb4">Precisando de Exames?</h2>
 
             <button className="btn reserve_btn mt-4">
               <Link to="/cars">Quero Exames</Link>
@@ -47,7 +47,7 @@ const HeroSlider = () => {
       <div className="slider_item slider_item-03 mt0">
         <Container>
           <div className="slider_content">
-            <h1 className="text-light mb4">Já Vacinou Seu Pet?</h1>
+            <h2 className="text-light mb4">Já Vacinou Seu Pet?</h2>
 
             <button className="btn reserve_btn mt-4">
               <Link to="/cars">Quero Vacinar</Link>

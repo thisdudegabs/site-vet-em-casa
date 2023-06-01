@@ -1,6 +1,6 @@
 .slider_item {
   max-width: 100%;
-  height: 650px;
+  height: 800px;
 }
 
 .slider_item-01 {
@@ -32,10 +32,15 @@
 }
 
 .slider_content {
-  padding-top: 150px;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.slider_content h1 {
+.slider_content h2 {
   font-size: 3.2rem;
   font-weight: 600;
   margin-left: 1000px;
