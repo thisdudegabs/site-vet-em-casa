@@ -4,24 +4,21 @@
 }
 
 .slider_item-01 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/Animais/dog1.jpg");
+  background: url("../assets/all-images/Animais/dog1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider_item-02 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/Animais/dog5.jpg");
+  background: url("../assets/all-images/Animais/dog5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slider_item-03 {
-  background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)),
-    url("../assets/all-images/Animais/cat3.jpg");
+  background: url("../assets/all-images/Animais/cat3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

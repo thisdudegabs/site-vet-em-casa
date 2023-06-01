@@ -26,7 +26,7 @@ const HeroSlider = () => {
             <h2 className="text-light mb4">Fazemos consulta na sua casa!</h2>
 
             <button className="btn reserve_btn mt-4">
-              <Link to="/cars">Quero Agendar</Link>
+              <Link to="/contato">Quero Agendar</Link>
             </button>
           </div>
         </Container>
@@ -38,7 +38,7 @@ const HeroSlider = () => {
             <h2 className="text-light mb4">Precisando de Exames?</h2>
 
             <button className="btn reserve_btn mt-4">
-              <Link to="/cars">Quero Exames</Link>
+              <Link to="/contato">Quero Exames</Link>
             </button>
           </div>
         </Container>
@@ -50,7 +50,7 @@ const HeroSlider = () => {
             <h2 className="text-light mb4">Já Vacinou Seu Pet?</h2>
 
             <button className="btn reserve_btn mt-4">
-              <Link to="/cars">Quero Vacinar</Link>
+              <Link to="/contato">Quero Vacinar</Link>
             </button>
           </div>
         </Container>
