@@ -6,6 +6,7 @@ import HeroSlider from "../components/UI/HeroSlider";
 import SectionConsulta from "../components/UI/SectionConsulta";
 import SectionVacinas from "../components/UI/SectionVacinas";
 import SectionExames from "../components/UI/SectionExames";
+import SectionEspecialidades from "../components/UI/SectionEspecialidades";
 
 const Home = () => {
   return (
@@ -22,8 +23,11 @@ const Home = () => {
       {/* ========== parte sobre Vacinas ============== */}
       <SectionVacinas />
 
-      {/* ========== parte sobre Exanes ============== */}
+      {/* ========== parte sobre Exames ============== */}
       <SectionExames />
+
+      {/* ========== parte sobre Especialidades ============== */}
+      <SectionEspecialidades />
     </Helmet>
   );
 };
