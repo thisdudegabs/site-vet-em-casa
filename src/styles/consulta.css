@@ -4,13 +4,60 @@
   justify-content: space-between;
 }
 
-.animation-container {
-  margin-left: 20px;
-  margin-right: 400px;
-  height: 500px;
-  margin-top: 80px;
-}
-
 .text-container {
   margin-left: 400px;
+}
+
+.consulta_page-img,
+.section_consulta-content {
+  margin-top: 105px;
+}
+
+.section_consulta-content {
+  margin-left: 6rem;
+}
+
+.section_consulta-content h2 {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.consulta_page-section {
+  margin-bottom: 5px;
+}
+
+.contact_btn {
+  background: #4b0082 !important;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  margin-left: 270px;
+}
+
+.contact_btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.scroll-arrow-animation {
+  margin-top: -50px;
+  margin-left: 650px;
+  margin-bottom: -100px;
+}
+
+.clientTitle {
+  margin-bottom: 10px;
+}
+
+.clientTitle h6 {
+  font-weight: 400;
+}
+
+.clientTitle h2 {
+  font-weight: 350;
+}
+
+.testimonial-section {
+  margin-bottom: 40px;
 }
