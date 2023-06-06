@@ -37,11 +37,11 @@
 }
 
 .nav_item:hover {
-  color: #ff8c00;
+  color: #ffd700;
 }
 
 .nav_active {
-  color: #ff8c00;
+  color: #ffd700;
 }
 
 @media only screen and (max-width: 768px) {

@@ -69,7 +69,7 @@ section {
 
 .btn {
   padding: 7px 15px;
-  background: #987ea4;
+  background: #987ea4 !important;
   color: #fff;
   border: none;
   outline: none;
@@ -79,7 +79,7 @@ section {
 
 .btn:hover {
   color: #fff !important;
-  background: #987ea4;
+  background: #4b0082 !important;
 }
 
 @media only screen and (max-width: 768px) {

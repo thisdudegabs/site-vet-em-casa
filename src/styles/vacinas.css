@@ -1,0 +1,29 @@
+.section_vacina-div {
+  margin-top: 130px;
+}
+
+.section_vacina-div h2 {
+  margin-right: 9rem;
+}
+
+.section_vacina-div p {
+  margin-left: -1rem;
+  margin-right: 2rem;
+}
+
+.consulta_page-img {
+  margin-top: 100px;
+}
+
+.vacina_btn {
+  color: #fff !important;
+  border: none;
+  outline: none;
+  margin-left: 180px;
+}
+
+.vacina_btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}

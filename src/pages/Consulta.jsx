@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Helmet from "../components/Helmet/Helmet";
@@ -6,24 +6,8 @@ import ImgConsulta from "../assets/all-images/Animais/dog7.jpg";
 import "../styles/consulta.css";
 import "../styles/section-consulta.css";
 import TestimonialSlider from "../components/UI/TestimonialSlider";
-import lottie from "lottie-web";
-import ScrollAnimation from "../assets/all-images/Animação/90239-arrow.json";
 
 const Consulta = () => {
-  const animationContainerRef = useRef(null);
-
-  useEffect(() => {
-    const anim = lottie.loadAnimation({
-      container: animationContainerRef.current,
-      renderer: "svg",
-      loop: true,
-      autoplay: true,
-      animationData: ScrollAnimation,
-    });
-
-    return () => anim.destroy();
-  }, []);
-
   return (
     <Helmet title="Consulta">
       <section className="consulta_page-section">
@@ -65,12 +49,6 @@ const Consulta = () => {
           </Row>
         </Container>
       </section>
-
-      <div
-        className="scroll-arrow-animation"
-        ref={animationContainerRef}
-        style={{ width: "200px", height: "200px" }}
-      ></div>
 
       <section className="testimonial-section">
         <Container>

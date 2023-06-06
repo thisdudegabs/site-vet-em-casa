@@ -1,13 +1,3 @@
-.consulta-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.text-container {
-  margin-left: 400px;
-}
-
 .consulta_page-img,
 .section_consulta-content {
   margin-top: 105px;
@@ -27,7 +17,6 @@
 }
 
 .contact_btn {
-  background: #4b0082 !important;
   color: #fff !important;
   border: none;
   outline: none;
@@ -59,5 +48,6 @@
 }
 
 .testimonial-section {
+  margin-top: -50px;
   margin-bottom: 40px;
 }
