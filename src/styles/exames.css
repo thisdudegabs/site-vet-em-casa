@@ -1,0 +1,29 @@
+.section_exames-div {
+  margin-top: 140px;
+}
+
+.section_exames-div h2 {
+  margin-left: 9rem;
+}
+
+.section_exames-div p {
+  margin-left: 6rem;
+}
+
+.exames_section-img {
+  margin-top: 120px;
+  margin-left: 15px;
+}
+
+.exames_btn {
+  color: #fff !important;
+  border: none;
+  outline: none;
+  margin-left: 270px;
+}
+
+.exames_btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}

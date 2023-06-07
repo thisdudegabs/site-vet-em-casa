@@ -16,7 +16,7 @@ const Vacinas = () => {
             <Col lg="6" md="6" sm="12">
               <div className="section_vacina-div">
                 <h2 className="section_title text-center">
-                  Por que vacinar meu PET?
+                  Por que vacinar meu Pet?
                 </h2>
                 <p className="description">
                   Incididunt enim ea sit commodo. Enim anim non reprehenderit
