@@ -16,6 +16,24 @@
   color: #ffd700;
 }
 
+.section_description.compact {
+  font-size: 22px;
+  max-width: 600px;
+  margin-left: 290px;
+  margin-right: -230px;
+}
+
+.icon-img {
+  width: 90px;
+  height: 90px;
+  margin-left: 385px;
+}
+
+.vacinas_title {
+  margin-top: 30px;
+  margin-left: 380px;
+  margin-right: -200px;
+}
 @media only screen and (max-width: 768px) {
   service_item h6 {
     font-size: 1.1rem;

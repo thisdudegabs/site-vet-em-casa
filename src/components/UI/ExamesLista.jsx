@@ -25,15 +25,22 @@ const ServiceItem = ({ item }) => (
     md="6"
     sm="12"
     className="mb-3"
-    style={{ marginLeft: "-90px", marginRight: "-50px" }}
+    style={{ marginLeft: "-50px", marginRight: "-50px" }}
   >
     <div className="services_item">
       <span className="mb-3 d-inline-block text-center">
         <i className={item.icon} />
       </span>
 
-      <h6 className="text-center">{item.title}</h6>
-      <p className="section_description compact">{item.desc}</p>
+      <div className="service_content">
+        <h6 className="text-center">{item.title}</h6>
+        <p
+          className="section_description compact"
+          style={{ marginLeft: "180px", maxWidth: "300px" }}
+        >
+          {item.desc}
+        </p>
+      </div>
     </div>
   </Col>
 );
