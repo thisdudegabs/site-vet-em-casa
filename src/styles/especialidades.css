@@ -1,0 +1,35 @@
+.section_especialidades-conteudo {
+  margin-top: 100px;
+}
+
+.section_title {
+  margin-left: 6px;
+}
+
+.section_especialidades-conteudo h2 {
+  margin-left: 100px;
+}
+
+.section_especialidades-conteudo p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.especialidades_img {
+  margin-top: 105px;
+}
+
+.especialidades_btn {
+  color: #fff !important;
+  border: none;
+  outline: none;
+  margin-left: 150px;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.especialidades_btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}

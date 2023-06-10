@@ -17,7 +17,7 @@ const SectionEspecialidades = ({ especiClass }) => {
         <Row>
           <Col lg="6" md="6">
             <div className="section_especi-conteudo">
-              <h2 className="section_title">Acupuntura Veterinária </h2>
+              <h2 className="section_title"> As nossas Especialidades! </h2>
               <p className="description">
                 Incididunt enim ea sit commodo. Enim anim non reprehenderit
                 minim laborum cupidatat. Reprehenderit voluptate reprehenderit
