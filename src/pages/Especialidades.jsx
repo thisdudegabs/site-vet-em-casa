@@ -7,6 +7,8 @@ import "../styles/especialidades.css";
 import ImgEspeci from "../assets/all-images/Animais/dog4.jpg";
 import CardTime from "../components/UI/CardTime";
 
+import TrabalheConosco from "../components/UI/TrabalheConosco";
+
 const Especialidades = () => {
   return (
     <Helmet>
@@ -61,6 +63,8 @@ const Especialidades = () => {
           </Row>
         </Container>
       </section>
+
+      <TrabalheConosco />
     </Helmet>
   );
 };

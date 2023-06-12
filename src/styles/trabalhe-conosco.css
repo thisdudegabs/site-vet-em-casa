@@ -1,0 +1,59 @@
+.trabalhe_conosco {
+  background: linear-gradient(rgba(138, 88, 203, 0.9), rgba(138, 88, 203, 0.9)),
+    url("../assets/all-images/Animais/trabalhedog.png");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  height: 550px;
+}
+
+.trabalhe_conosco button {
+  background: #fff !important;
+  color: #4b0082;
+  font-weight: 600;
+}
+
+.trabalhe_conosco-title {
+  font-size: 2.8rem;
+  color: #fff;
+  line-height: 65px;
+  margin-top: 60px;
+}
+
+.trabalhe_conosco-img {
+  margin-top: -130px;
+}
+
+@media only screen and (max-width: 992px) {
+  .trabalhe_conosco-title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .trabalhe_conosco {
+    padding: 50px 0px;
+  }
+
+  .trabalhe_conosco-title {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+
+  .trabalhe_conosco-btn {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .trabalhe_conosco-img {
+    display: none;
+  }
+
+  .trabalhe_conosco {
+    text-align: center;
+  }
+}
