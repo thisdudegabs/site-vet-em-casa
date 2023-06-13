@@ -8,21 +8,26 @@ import "../styles/section-consulta.css";
 import TestimonialSlider from "../components/UI/TestimonialSlider";
 
 const Consulta = () => {
+  const customStyles = {
+    position: "relative",
+    left: "260px",
+  };
+
   return (
     <Helmet title="Consulta">
-      <section className="consulta_page-section">
+      <section className="consulta_page-section custom_consulta">
         <Container>
           <Row>
             <Col lg="6" md="6" sm="12">
-              <div className="consulta_page-img">
+              <div className="costum_page-img">
                 <img src={ImgConsulta} alt="" className="w-100 rounded-3" />
               </div>
             </Col>
 
             <Col lg="6" md="6" sm="12">
-              <div className="section_consulta-content">
-                <h2 className="section_title">Seu Pet precisa de consulta?</h2>
-                <p className="description">
+              <div className="costum_consulta-content">
+                <h2 className="costum_title">Seu Pet precisa de consulta?</h2>
+                <p className="costum_description">
                   Incididunt enim ea sit commodo. Enim anim non reprehenderit
                   minim laborum cupidatat. Reprehenderit voluptate reprehenderit
                   tempor tempor pariatur eu. Qui culpa Lorem reprehenderit culpa
@@ -42,7 +47,10 @@ const Consulta = () => {
                 </p>
               </div>
 
-              <button className="btn contact_btn mt-4">
+              <button
+                className="btn contact_btn mt-4 custom_consulta-btn"
+                style={{ ...customStyles }}
+              >
                 <Link to="/contato">Entrar em Contato</Link>
               </button>
             </Col>

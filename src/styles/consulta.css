@@ -1,29 +1,31 @@
-.consulta_page-img,
-.section_consulta-content {
-  margin-top: 105px;
+.costum_page-img,
+.costum_consulta-content {
+  margin-top: 15px;
 }
 
-.section_consulta-content {
+.costum_consulta-content {
   margin-left: 6rem;
 }
 
-.section_consulta-content h2 {
+.costum_consulta-content h2 {
   margin-left: 60px;
   margin-bottom: 20px;
 }
 
-.consulta_page-section {
+.custom_consulta {
   margin-bottom: 5px;
 }
 
-.contact_btn {
-  color: #fff !important;
+.custom_consulta-btn {
+  padding: 7px 15px;
+  background: #987ea4;
+  color: #fff;
   border: none;
   outline: none;
-  margin-left: 270px;
+  border-radius: 5px;
+  transition: 0.3s;
 }
-
-.contact_btn a {
+.custom_consulta-btn a {
   text-decoration: none;
   font-weight: 600;
   color: #fff;
