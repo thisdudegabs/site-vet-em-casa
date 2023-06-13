@@ -1,8 +1,9 @@
-import React from "react";
-import { Container, Row, Col, Card } from "reactstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/especialidades.css";
+import "../styles/card-time.css";
 
 import ImgEspeci from "../assets/all-images/Animais/dog4.jpg";
 import CardTime from "../components/UI/CardTime";
@@ -10,6 +11,20 @@ import CardTime from "../components/UI/CardTime";
 import TrabalheConosco from "../components/UI/TrabalheConosco";
 
 const Especialidades = () => {
+  const [showCardTime, setShowCardTime] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowCardTime(true);
+    }, 4000); // Tempo de espera em milissegundos (por exemplo, 500ms)
+
+    return () => clearTimeout(timer); // Limpa o temporizador ao desmontar o componente
+  }, []);
+
+  useEffect(() => {
+    import("../styles/especialidades.css");
+  }, []);
+
   return (
     <Helmet>
       <section>
@@ -58,7 +73,7 @@ const Especialidades = () => {
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section_subtitle">Especialistas</h6>
               <h2 className="section_title">Nosso Time</h2>
-              <CardTime />
+              <CardTime showCardTime={showCardTime} />
             </Col>
           </Row>
         </Container>

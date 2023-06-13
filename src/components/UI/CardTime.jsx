@@ -1,107 +1,132 @@
 import React from "react";
 import "../../styles/card-time.css";
-
-import { Row, Col, Container } from "reactstrap";
-import WavingHand from "../../assets/all-images/CardTime/waving-hand.png";
-import InstaIcon from "../../assets/all-images/CardTime/instagram.png";
+import Victor from "../../assets/all-images/CardTime/victorvillar.jpg";
+import Bruna from "../../assets/all-images/CardTime/brunasimonato.jpeg";
+import MaisEspeci from "../../assets/all-images/CardTime/outros.jpeg";
 
 const CardTime = () => {
   return (
-    <Container>
-      <div className="card-container">
-        <div className="card">
-          <div className="card-inner">
-            <div className="front1">
-              <h2>Dr. Victor</h2>
-              <p>Médico Veterinário</p>
-              <button>Aqui!</button>
-            </div>
-
-            <div className="back">
-              <img src={WavingHand} alt="" />
-              <h1>
-                Dr. Victor <span className="break-line">Villar</span>
-              </h1>
-              <p>
-                Sou um médico veterinário formado em Medicina Veterinária, Pós
-                Graduando em Medicina de Felinos e espealicista em Clínica
-                Médica de Felinos.
-              </p>
-
-              <Row className="details">
-                <Col className="detalhe1">
-                  <h2>100+</h2>
-                  <p>Cachorros Atendidos</p>
-                </Col>
-                <Col className="detalhe2">
-                  <h2>50+</h2>
-                  <p>Gatos Cuidados</p>
-                </Col>
-                <Col className="detalhe3">
-                  <h2>70+</h2>
-                  <p>Vacinas Aplicadas</p>
-                </Col>
-              </Row>
-
-              <Row className="icons_details">
-                <button>Seguir</button>
-                <a href="https://www.instagram.com/vet_vilar/" target="_blank">
-                  <img src={InstaIcon} alt="Icone do Instagram" />
-                </a>
-              </Row>
-            </div>
-          </div>
+    <div className="card-container">
+      <div className="card1">
+        <div className="imgBx1">
+          <img src={Victor} alt="Doutor Victor" />
         </div>
 
-        <div className="card">
-          <div className="card-inner">
-            <div className="front2">
-              <h2>Dra. Bruna </h2>
-              <p>Médica Veterinária</p>
-              <button>Aqui!</button>
+        <div className="content1">
+          <div className="details1">
+            <h2>
+              Dr. Victor Villar
+              <span style={{ display: "block" }}> Veterinário</span>
+            </h2>
+            <div className="data1">
+              <h3>
+                +400 <span style={{ display: "block" }}> Consultas Feitas</span>
+              </h3>
+              <h3>
+                +150
+                <span style={{ display: "block" }}> Vacinas Aplicadas</span>
+              </h3>
+              <h3>
+                +400 <span style={{ display: "block" }}> Animais Salvos</span>
+              </h3>
             </div>
 
-            <div className="back">
-              <img src={WavingHand} alt="" />
-              <h1>
-                Dra. Bruna <span className="break-line">Simonato</span>
-              </h1>
-              <p>
-                Sou uma médica veterinário formado em Medicina Veterinária, Pós
-                Graduando em Acupuntura Veterinária, também formada em
-                Fitoterapia em Medicina Tradicional Chinesa e Fisio.
-                Veterinária.
-              </p>
-
-              <Row className="details">
-                <Col className="detalhe1">
-                  <h2>50+</h2>
-                  <p>Animais Recuperados</p>
-                </Col>
-                <Col className="detalhe2">
-                  <h2>50+</h2>
-                  <p>Donos Felizes</p>
-                </Col>
-                <Col className="detalhe3">
-                  <h2>200+</h2>
-                  <p>Sessões de Fisioterapia</p>
-                </Col>
-              </Row>
-
-              <Row className="icons_details">
+            <div className="actionBtn1">
+              <a
+                href="https://www.instagram.com/vet_vilar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button>Seguir</button>
-                <a
-                  href="https://instagram.com/brunasimonatovet?igshid=MzRlODBiNWFlZA=="
-                  target="_blank"
-                >
-                  <img src={InstaIcon} alt="Icone do Instagram" />
-                </a>
-              </Row>
+              </a>
+
+              <a
+                href="https://wa.me/5511989911582"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Chat</button>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </Container>
+
+      <div className="card2">
+        <div className="imgBx2">
+          <img src={Bruna} alt="Doutora Bruna" />
+        </div>
+
+        <div className="content2">
+          <div className="details2">
+            <h2>
+              Dra. Bruna Simonato
+              <span style={{ display: "block" }}> Veterinária</span>
+            </h2>
+            <div className="data2">
+              <h3>
+                50+
+                <span style={{ display: "block" }}> Animais Recuperados</span>
+              </h3>
+              <h3>
+                50+ <span style={{ display: "block" }}> Donos Felizes</span>
+              </h3>
+              <h3>
+                200+
+                <span style={{ display: "block" }}>
+                  Sessões de Fisioterapia
+                </span>
+              </h3>
+            </div>
+
+            <div className="actionBtn2">
+              <a
+                href="https://instagram.com/brunasimonatovet?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Seguir</button>
+              </a>
+
+              <a
+                href="https://wa.me/5511989911582"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Chat</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="card3">
+        <div className="imgBx3">
+          <img src={MaisEspeci} alt="Mais Especialistas" />
+        </div>
+
+        <div className="content3">
+          <div className="details3">
+            <h2>Outras Especialidades</h2>
+            <div className="data3">
+              <div className="column">
+                <h3>Med. Felinos</h3>
+                <h3>Dermato</h3>
+              </div>
+              <div className="column">
+                <h3>Cardio</h3>
+                <h3>Onco</h3>
+              </div>
+              <div className="column">
+                <h3>Fisiatria</h3>
+                <h3>Oftalmo</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
+
 export default CardTime;

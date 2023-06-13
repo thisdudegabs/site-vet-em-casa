@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Container, Row, Col, Nav } from "reactstrap";
+import { Container } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 import logoImg from "../../assets/all-images/Logo/logo.png";

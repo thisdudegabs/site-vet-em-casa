@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../../styles/trabalhe-conosco.css";
+import "../../styles/trabalhe-conosco.css?v=1.0.0";
 
 import trabalheImg from "../../assets/all-images/Animais/trabalhedog.png";
 
