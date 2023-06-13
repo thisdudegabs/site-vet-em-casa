@@ -16,9 +16,9 @@ const Especialidades = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowCardTime(true);
-    }, 4000); // Tempo de espera em milissegundos (por exemplo, 500ms)
+    }, 4000);
 
-    return () => clearTimeout(timer); // Limpa o temporizador ao desmontar o componente
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -45,11 +45,7 @@ const Especialidades = () => {
                   Id tempor veniam consectetur aute dolor adipisicing laborum.
                   Eiusmod cupidatat deserunt ipsum labore enim anim cupidatat
                   proident amet esse eiusmod velit excepteur. Incididunt enim ea
-                  sit commodo. Enim anim non reprehenderit minim laborum
-                  cupidatat. Reprehenderit voluptate reprehenderit tempor tempor
-                  pariatur eu. Qui culpa Lorem reprehenderit culpa occaecat ut.
-                  In commodo minim non adipisicing pariatur deserunt eiusmod do
-                  commodo consequat tempor culpa.
+                  sit commodo.
                 </p>
 
                 <button className="btn especialidades_btn mt-4">
