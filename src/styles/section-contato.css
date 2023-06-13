@@ -1,0 +1,46 @@
+.section_contato-conteudo {
+  margin-top: -360px;
+}
+
+.section_title {
+  margin-left: 6px;
+}
+
+.section_contato-conteudo h2 {
+  margin-right: 9rem;
+  margin-left: 100px;
+}
+
+.section_contato-conteudo p {
+  margin-left: -1rem;
+  margin-right: 2rem;
+}
+
+.custom-icon {
+  font-size: 30px;
+  color: #00a54e;
+  /* Posição personalizada */
+  position: absolute;
+  top: 97%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-button {
+  background-color: #fff !important;
+  color: #00a54e !important;
+  outline: auto;
+  position: absolute;
+  top: 650px;
+  right: 320px;
+}
+
+.custom-button:hover {
+  color: #fff !important;
+  background: #00a54e !important;
+}
+.contato_img {
+  width: 500px;
+  margin-top: -360px;
+  margin-left: 100px;
+}
