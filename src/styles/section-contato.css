@@ -1,5 +1,5 @@
 .section_contato-conteudo {
-  margin-top: -360px;
+  margin-top: -250px;
 }
 
 .section_title {
@@ -12,6 +12,7 @@
 }
 
 .section_contato-conteudo p {
+  margin-top: 50px;
   margin-left: -1rem;
   margin-right: 2rem;
 }
@@ -20,8 +21,8 @@
   font-size: 30px;
   color: #00a54e;
   position: absolute;
-  top: 94%;
-  left: 60%;
+  top: 90%;
+  left: 58%;
   transform: translate(-50%, -50%);
 }
 
@@ -30,8 +31,8 @@
   color: #00a54e !important;
   outline: auto !important;
   position: absolute;
-  top: 650px;
-  right: 320px;
+  top: 815px;
+  right: 500px;
 }
 
 .custom-button:hover {
@@ -39,7 +40,7 @@
   background: #00a54e !important;
 }
 .contato_img {
-  width: 500px;
+  width: 400px;
   margin-top: -360px;
   margin-left: 100px;
 }

@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import "../../styles/exames-lista.css";
-import examesData from "../../assets/data/examesData";
+import "../../styles/tratamentos-lista.css";
+import TratamentosData from "../../assets/data/tratamentosData";
 
-const ExamesLista = () => {
-  const groupedExamesData = chunkArray(examesData, 2);
+const TratamentosLista = () => {
+  const groupedTratamentosLista = chunkArray(TratamentosData, 2);
 
   return (
     <>
-      {groupedExamesData.map((group, index) => (
+      {groupedTratamentosLista.map((group, index) => (
         <Row key={index} className="justify-content-center">
           {group.map((item) => (
             <ServiceItem item={item} key={item.id} />
@@ -27,15 +27,15 @@ const ServiceItem = ({ item }) => (
     className="mb-3"
     style={{ marginLeft: "-50px", marginRight: "-50px" }}
   >
-    <div className="services_item">
+    <div className="services_item items_costum">
       <span className="mb-3 d-inline-block text-center">
         <i className={item.icon} />
       </span>
 
-      <div className="service_content">
+      <div className="service_content content_costum">
         <h6 className="text-center">{item.title}</h6>
         <p
-          className="section_description compact"
+          className="section_description-costum  compact"
           style={{ marginLeft: "180px", maxWidth: "300px" }}
         >
           {item.desc}
@@ -53,4 +53,4 @@ const chunkArray = (array, size) => {
   return chunks;
 };
 
-export default ExamesLista;
+export default TratamentosLista;

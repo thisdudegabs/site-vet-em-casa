@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import ImgExames from "../../assets/all-images/Animais/dog8.jpg";
-import "../../styles/section-exames.css";
+import "../../styles/section-acupuntura.css";
 
-const SectionExames = ({ examesClass }) => {
+const SectionAcupuntura = ({ acupunClass }) => {
   return (
     <section
-      className="section_exames"
+      className="section_acupuntura"
       style={
-        examesClass === "ExamesPage"
+        acupunClass === "AcupunturaPage"
           ? { marginTop: "0px" }
           : { marginTop: "150px" }
       }
@@ -16,14 +16,14 @@ const SectionExames = ({ examesClass }) => {
       <Container>
         <Row>
           <Col lg="6" md="6">
-            <div className="exames_img">
+            <div className="acupuntura_img">
               <img src={ImgExames} alt="" className="w-100" />
             </div>
           </Col>
 
           <Col lg="6" md="6">
-            <div className="section_exames-conteudo">
-              <h2 className="section_title">Realizamos exames na sua casa!</h2>
+            <div className="section_acupuntura-conteudo">
+              <h2 className="section_title">Deseja alivia a dor do seu Pet?</h2>
               <p className="description">
                 Incididunt enim ea sit commodo. Enim anim non reprehenderit
                 minim laborum cupidatat. Reprehenderit voluptate reprehenderit
@@ -45,4 +45,4 @@ const SectionExames = ({ examesClass }) => {
   );
 };
 
-export default SectionExames;
+export default SectionAcupuntura;

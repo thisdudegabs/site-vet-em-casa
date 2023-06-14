@@ -15,8 +15,8 @@ const navLinks_left = [
   },
 
   {
-    path: "/exames",
-    display: "Exames",
+    path: "/acupuntura",
+    display: "Acupuntura",
   },
 ];
 

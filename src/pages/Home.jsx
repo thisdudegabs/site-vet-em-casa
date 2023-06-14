@@ -5,7 +5,7 @@ import { Container } from "reactstrap";
 import HeroSlider from "../components/UI/HeroSlider";
 import SectionConsulta from "../components/UI/SectionConsulta";
 import SectionVacinas from "../components/UI/SectionVacinas";
-import SectionExames from "../components/UI/SectionExames";
+import SectionAcupuntura from "../components/UI/SectionAcupuntura";
 import SectionEspecialidades from "../components/UI/SectionEspecialidades";
 
 import AOS from "aos";
@@ -42,7 +42,7 @@ const Home = () => {
       {/* ========== parte sobre Exames ============== */}
       <section className="section-exames" data-aos="fade-down">
         <Container>
-          <SectionExames />
+          <SectionAcupuntura />
         </Container>
       </section>
 

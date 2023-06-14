@@ -15,8 +15,8 @@ const quickLinks = [
   },
 
   {
-    path: "/exames",
-    display: "Exames",
+    path: "/acupuntura",
+    display: "Acupuntura",
   },
   {
     path: "/especialidades",

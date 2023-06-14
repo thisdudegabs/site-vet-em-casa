@@ -36,7 +36,9 @@ const HeroSlider = () => {
             </h2>
 
             <Link to="/contato">
-              <button className="btn reserve_btn mt-4">Texto do botão</button>
+              <button className="btn reserve_btn mt-4">
+                Marcar consulta agora!
+              </button>
             </Link>
           </div>
         </Container>
@@ -49,10 +51,14 @@ const HeroSlider = () => {
       >
         <Container>
           <div className="slider_content">
-            <h2 className="custom-h2 custom-h2-2">Precisando de Exames?</h2>
+            <h2 className="custom-h2 custom-h2-2">
+              Seu Pet Precisa de Fisioterapia?
+            </h2>
 
             <Link to="/contato">
-              <button className="btn reserve_btn mt-4">Texto do botão</button>
+              <button className="btn reserve_btn mt-4">
+                Aliviar a dor do meu Pet
+              </button>
             </Link>
           </div>
         </Container>
@@ -68,7 +74,9 @@ const HeroSlider = () => {
             <h2 className="custom-h2 custom-h2-3">Já Vacinou Seu Pet?</h2>
 
             <Link to="/contato">
-              <button className="btn reserve_btn mt-4">Texto do botão</button>
+              <button className="btn reserve_btn mt-4">
+                Viver mais com meu Pet!
+              </button>
             </Link>
           </div>
         </Container>

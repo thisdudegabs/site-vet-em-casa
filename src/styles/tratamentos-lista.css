@@ -1,19 +1,19 @@
-.content_costum1 {
+.content_costum {
   margin-left: -400px;
 }
 
-.items_costum1 i {
+.services_item i {
   margin-left: -150px;
 }
 
-.description_costum1 {
+.section_description-costum {
   white-space: pre-wrap;
   color: #987ea4;
   font-weight: 600;
   font-size: 1.1rem;
 }
 
-.description_costum1 .compact {
+.description_costum .compact {
   font-size: 20px;
   max-width: 200px;
   margin-left: 0;
