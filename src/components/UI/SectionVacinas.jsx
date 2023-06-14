@@ -10,7 +10,7 @@ const SectionVacinas = ({ vacinaClass }) => {
       style={
         vacinaClass === "VacinaPage"
           ? { marginTop: "0px" }
-          : { marginTop: "280px" }
+          : { marginTop: "150px" }
       }
     >
       <Container>
@@ -31,12 +31,7 @@ const SectionVacinas = ({ vacinaClass }) => {
                 dolore ex esse dolor reprehenderit esse. Id tempor veniam
                 consectetur aute dolor adipisicing laborum. Eiusmod cupidatat
                 deserunt ipsum labore enim anim cupidatat proident amet esse
-                eiusmod velit excepteur. Incididunt enim ea sit commodo. Enim
-                anim non reprehenderit minim laborum cupidatat. Reprehenderit
-                voluptate reprehenderit tempor tempor pariatur eu. Qui culpa
-                Lorem reprehenderit culpa occaecat ut. In commodo minim non
-                adipisicing pariatur deserunt eiusmod do commodo consequat
-                tempor culpa.
+                eiusmod velit excepteur.
               </p>
             </div>
           </Col>

@@ -10,7 +10,7 @@ const SectionContato = ({ contatoClass }) => {
       style={
         contatoClass === "ContatoPage"
           ? { marginTop: "0px" }
-          : { marginTop: "280px" }
+          : { marginTop: "250px" }
       }
     >
       <Container>
@@ -46,7 +46,7 @@ const SectionContato = ({ contatoClass }) => {
               rel="noopener noreferrer"
               className="custom-link"
             >
-              <button className="btn contact_btn mt-4 custom-button">
+              <button className="btn contact_btn mt-1 custom-button">
                 Marcar Consulta ou Exame!
               </button>
             </a>

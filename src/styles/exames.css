@@ -1,28 +1,23 @@
-.section_exames-div {
-  margin-top: 140px;
+.section_costum {
+  margin-top: 50px !important;
 }
 
-.section_exames-div h2 {
-  margin-left: 9rem;
+.costum_section-subtitle {
+  margin-top: -70px;
+  color: #ffd700;
+  font-weight: 600;
+  font-size: 2rem;
 }
 
-.section_exames-div p {
-  margin-left: 6rem;
-}
-
-.exames_section-img {
-  margin-top: 120px;
-  margin-left: 15px;
-}
-
-.exames_btn {
+.costum_exames-btn {
   color: #fff !important;
   border: none;
   outline: none;
-  margin-left: 270px;
+  margin-left: 999px;
+  margin-top: -140px;
 }
 
-.exames_btn a {
+.costum_exames-btn a {
   text-decoration: none;
   font-weight: 600;
   color: #fff;

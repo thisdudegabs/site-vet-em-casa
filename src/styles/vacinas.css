@@ -1,29 +1,20 @@
-.section_vacina-div {
-  margin-top: 130px;
+.vacina_page-section {
+  margin-top: 50px;
 }
 
-.section_vacina-div h2 {
-  margin-right: 9rem;
-}
-
-.section_vacina-div p {
-  margin-left: -1rem;
-  margin-right: 2rem;
-}
-
-.consulta_page-img {
-  margin-top: 100px;
-}
-
-.vacina_btn {
+.costum_vacina-btn {
   color: #fff !important;
   border: none;
   outline: none;
   margin-left: 180px;
+  position: relative;
 }
-
-.vacina_btn a {
+.costum_vacina-btn a {
   text-decoration: none;
   font-weight: 600;
   color: #fff;
+}
+
+.custom_margin_top {
+  margin-top: -50px;
 }

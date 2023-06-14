@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .trabalhe_conosco button {
@@ -22,7 +22,7 @@
 }
 
 .trabalhe_conosco-img {
-  margin-top: -140px;
+  margin-top: -50px;
 }
 
 @media only screen and (max-width: 992px) {

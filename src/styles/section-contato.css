@@ -19,9 +19,8 @@
 .custom-icon {
   font-size: 30px;
   color: #00a54e;
-  /* Posição personalizada */
   position: absolute;
-  top: 97%;
+  top: 94%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
@@ -29,7 +28,7 @@
 .custom-button {
   background-color: #fff !important;
   color: #00a54e !important;
-  outline: auto;
+  outline: auto !important;
   position: absolute;
   top: 650px;
   right: 320px;

@@ -15,7 +15,7 @@ const CardTime = () => {
         <div className="content1">
           <div className="details1">
             <h2>
-              Dr. Victor Villar
+              Dr. Victor Vilar
               <span style={{ display: "block" }}> Veterinário</span>
             </h2>
             <div className="data1">
