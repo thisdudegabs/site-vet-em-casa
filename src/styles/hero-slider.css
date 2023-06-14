@@ -1,6 +1,12 @@
 .slider_item {
   max-width: 100%;
   height: 750px;
+  z-index: 1; /* adicionado */
+  position: relative; /* adicionado */
+}
+
+.slick-current {
+  z-index: 2; /* adicionado */
 }
 
 .slider_item-01 {
@@ -18,7 +24,7 @@
 }
 
 .slider_item-03 {
-  background: url("../assets/all-images/Animais/cat3.jpg");
+  background: url("../assets/all-images/Animais/cat4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,17 +42,32 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -200px;
+  position: relative;
 }
 
 .slider_content h2 {
+  max-width: 500px;
   font-size: 3.2rem;
   font-weight: 600;
-  margin-left: 1000px;
+  position: relative;
+  left: 1000px;
+  word-wrap: break-word;
+}
+
+.custom-h2-1 {
+  color: #4b0082;
+}
+
+.custom-h2-2 {
+  color: #fff;
+}
+
+.custom-h2-3 {
+  color: #4b0082;
 }
 
 .reserve_btn {
-  background: #fff !important;
-  color: #4b0082;
+  color: #fff !important;
   border: none;
   outline: none;
   margin-left: 1000px;
@@ -55,7 +76,7 @@
 .reserve_btn a {
   text-decoration: none;
   font-weight: 600;
-  color: #4b0082;
+  color: #fff;
 }
 
 @media only screen and (max-width: 992px) {
