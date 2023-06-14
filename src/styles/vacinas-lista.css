@@ -1,3 +1,8 @@
+.services_item {
+  padding-left: 24em;
+  white-space: nowrap;
+}
+
 .services_item span i {
   font-size: 2.5rem;
   color: #ffd700;
@@ -9,31 +14,29 @@
   transition: 0.3s;
 }
 
-.services_item p {
+.services_item ul {
   font-size: 1.5rem;
-}
-.services_item h6:hover {
-  color: #ffd700;
+  padding-left: 1em;
 }
 
-.section_description.compact {
-  font-size: 22px;
-  max-width: 600px;
-  margin-left: 290px;
-  margin-right: -230px;
+.services_item h6:hover {
+  color: #ffd700;
 }
 
 .icon-img {
   width: 90px;
   height: 90px;
-  margin-left: 385px;
 }
 
 .vacinas_title {
   margin-top: 30px;
-  margin-left: 380px;
-  margin-right: -200px;
+  padding-left: 1.2em;
 }
+
+.animal_icon {
+  margin-left: 1em;
+}
+
 @media only screen and (max-width: 768px) {
   service_item h6 {
     font-size: 1.1rem;
