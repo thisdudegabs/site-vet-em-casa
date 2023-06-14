@@ -1,0 +1,13 @@
+.exames_content {
+  margin-left: 150px;
+}
+
+.services_item i {
+  margin-left: 290px;
+}
+
+.section_description.compact {
+  font-size: 20px;
+  max-width: 200px;
+  margin-left: 0;
+}

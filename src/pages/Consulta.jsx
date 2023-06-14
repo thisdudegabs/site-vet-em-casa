@@ -6,12 +6,13 @@ import "../styles/consulta.css";
 import "../styles/section-consulta.css";
 import TestimonialSlider from "../components/UI/TestimonialSlider";
 import SectionConsulta from "../components/UI/SectionConsulta";
+import SectionVantagensConsulta from "../components/UI/SectionVantagensConsulta";
 
 const Consulta = () => {
   const customStyles = {
     position: "relative",
     top: "-100px",
-    left: "990px",
+    left: "1200px",
   };
 
   return (
@@ -29,6 +30,19 @@ const Consulta = () => {
         >
           <Link to="/contato">Entrar em Contato</Link>
         </button>
+      </section>
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="vacinas_section mb-5 text-center">
+              <h6 className="costum_section-subtitle">Veja todas as</h6>
+              <h2 className="section_title">Vantagens </h2>
+            </Col>
+
+            <SectionVantagensConsulta />
+          </Row>
+        </Container>
       </section>
 
       <section className="testimonial-section">
