@@ -15,6 +15,7 @@
 }
 
 .services_item ul {
+  color: #fff;
   font-size: 1.5rem;
   padding-left: 1em;
 }
@@ -28,7 +29,7 @@
   height: 90px;
 }
 
-.vacinas_title {
+.vacinas_title-costum {
   margin-top: 30px;
   padding-left: 1.2em;
 }

@@ -33,7 +33,7 @@ const ServiceItem = ({ item }) => {
         <span className={iconClass}>
           <img src={iconImg} alt="" className="icon-img" />
         </span>
-        <h6 className="vacinas_title">{item.title}</h6>
+        <h6 className="vacinas_title-costum">{item.title}</h6>
         <ul className="section_description">
           {item.desc.map((vacina, index) => (
             <li key={index}>{vacina}</li>

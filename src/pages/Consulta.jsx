@@ -32,12 +32,12 @@ const Consulta = () => {
         </button>
       </section>
 
-      <section>
+      <section className="curve-bg1">
         <Container>
           <Row>
-            <Col lg="12" className="vacinas_section mb-5 text-center">
+            <Col lg="12" className="vantagens_section mb-5 text-center">
               <h6 className="costum_section-subtitle">Veja todas as</h6>
-              <h2 className="section_title">Vantagens </h2>
+              <h2 className="costum_section-title">Vantagens </h2>
             </Col>
 
             <SectionVantagensConsulta />
@@ -49,8 +49,10 @@ const Consulta = () => {
         <Container>
           <Row>
             <Col lg="12" className="clientTitle mb-4 text-center">
-              <h6 className="section_subtitle">O que os clientes dizem</h6>
-              <h2 className="section_title">Avaliações</h2>
+              <h6 className="costum_section-subtitle">
+                O que os clientes dizem
+              </h6>
+              <h2 className="costum_section-subtitle">Avaliações</h2>
             </Col>
             <Col lg="12">
               <TestimonialSlider />

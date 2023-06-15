@@ -1,33 +1,67 @@
-.costum h1 {
+section {
+  padding-block: 5rem;
+}
+
+.costum-intro h1 {
   text-align: center;
   font-size: 18px;
-  background: -webkit-linear-gradient(left, #4b0082, #ee71a2);
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
 
-.costum p {
+.costum-intro p {
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
   line-height: 1.5;
 }
-
-.curva-bg svg {
-  margin-top: -450px;
-  display: block;
-  width: 260%;
-}
-
-.curva-bg {
-  position: relative;
-  z-index: 1;
-}
-
 .galeria-bg {
   position: absolute;
   top: 550px;
   left: 500px;
   z-index: 2;
+}
+
+.curve-bg {
+  /*mascara criada com https://css-generators.com/wavy-shapes/ */
+
+  background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+  --mask: radial-gradient(52.57px at 50% 71.25px, #000 99%, #0000 101%)
+      calc(50% - 50px) 0/100px 51% repeat-x,
+    radial-gradient(52.57px at 50% -46.25px, #0000 99%, #000 101%) 50% 25px/100px
+      calc(51% - 25px) repeat-x,
+    radial-gradient(52.57px at 50% calc(100% - 71.25px), #000 99%, #0000 101%)
+      calc(50% - 50px) 100%/100px 51% repeat-x,
+    radial-gradient(52.57px at 50% calc(100% + 46.25px), #0000 99%, #000 101%)
+      50% calc(100% - 25px) / 100px calc(51% - 25px) repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
+
+.costum-about h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.costum-about p {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.vantagens-costum {
+  margin-top: 50px;
+}
+
+.valores-text {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.valores-text p {
+  color: #fff;
+  font-size: 1.1em;
 }

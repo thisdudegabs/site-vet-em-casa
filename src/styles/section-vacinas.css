@@ -15,6 +15,7 @@
   margin-right: 2rem;
 }
 
-.vacina_img {
+.vacina_img img {
   margin-top: -250px;
+  border-radius: 20px;
 }

@@ -25,7 +25,7 @@ const Vacinas = () => {
         </button>
       </section>
 
-      <section>
+      <section className="curve-bg">
         <Container>
           <Row>
             <Col lg="12" className="vacinas_section mb-5 text-center">

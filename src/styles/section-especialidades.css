@@ -16,6 +16,7 @@
   margin-right: 2rem;
 }
 
-.especi_img {
+.especi_img img {
   margin-top: -260px;
+  border-radius: 20px;
 }

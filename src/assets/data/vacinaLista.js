@@ -2,13 +2,7 @@ const vacinaLista = [
   {
     id: 1,
     title: "Cães",
-    desc: [
-      "V10",
-      "Gripe canina injetável",
-      "Gripe canina intranasal",
-      "Raiva",
-      "Giardia",
-    ],
+    desc: ["V10", "Gripe canina", "Raiva", "Giardia"],
   },
 
   {

@@ -1,14 +1,14 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import vantagensLista from "../../assets/data/vantagensLista";
-import "../../styles/section-vantagens.css";
+import valoresLista from "../../assets/data/valoresLista";
+import "../../styles/section-valores.css";
 
-const SectionVantagensConsulta = () => {
-  const groupedvantagensLista = chunkArray(vantagensLista, 2);
+const SectionValoresEmpresa = () => {
+  const groupedvaloresLista = chunkArray(valoresLista, 2);
 
   return (
     <>
-      {groupedvantagensLista.map((group, index) => (
+      {groupedvaloresLista.map((group, index) => (
         <Row key={index} className="justify-content-center">
           {group.map((item) => (
             <ServiceItem item={item} key={item.id} />
@@ -25,20 +25,20 @@ const ServiceItem = ({ item }) => (
     md="6"
     sm="12"
     className="mb-3"
-    style={{ marginLeft: "-50px", marginRight: "-50px" }}
+    style={{ marginLeft: "-10px", marginRight: "-10px" }}
   >
-    <div className="services_item items_costum-vantagens">
+    <div className="services_item items_costum-valores">
       <span className="mb-3 d-inline-block text-center">
         <i className={item.icon} />
       </span>
 
-      <div className="service_content content_costum-vantagens">
+      <div className="service_content content_costum-valores">
         <h6 className="text-center">{item.title}</h6>
         <p
-          className="section_description description-vantagens compact"
+          className="section_description description_costum-valores compact"
           style={{
-            marginLeft: "200px",
-            marginRight: "100px",
+            marginLeft: "-190px",
+            marginRight: "-70px",
             maxWidth: "1150px",
           }}
         >
@@ -56,4 +56,5 @@ const chunkArray = (array, size) => {
   }
   return chunks;
 };
-export default SectionVantagensConsulta;
+
+export default SectionValoresEmpresa;

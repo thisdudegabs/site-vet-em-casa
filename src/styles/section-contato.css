@@ -8,7 +8,7 @@
 
 .section_contato-conteudo h2 {
   margin-right: 9rem;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .section_contato-conteudo p {
@@ -21,7 +21,7 @@
   font-size: 30px;
   color: #00a54e;
   position: absolute;
-  top: 90%;
+  top: 95%;
   left: 58%;
   transform: translate(-50%, -50%);
 }
@@ -31,7 +31,7 @@
   color: #00a54e !important;
   outline: auto !important;
   position: absolute;
-  top: 815px;
+  top: 860px;
   right: 500px;
 }
 
@@ -43,4 +43,8 @@
   width: 400px;
   margin-top: -360px;
   margin-left: 100px;
+}
+
+.contato_img img {
+  border-radius: 20px;
 }
