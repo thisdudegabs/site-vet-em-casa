@@ -1,6 +1,6 @@
 .costum h1 {
   text-align: center;
-  font-size: 18px; /* Ajuste para o tamanho desejado */
+  font-size: 18px;
   background: -webkit-linear-gradient(left, #4b0082, #ee71a2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -22,12 +22,12 @@
 
 .curva-bg {
   position: relative;
-  z-index: 1; /* Coloca o SVG abaixo da galeria */
+  z-index: 1;
 }
 
 .galeria-bg {
   position: absolute;
-  top: 550px; /* Ajuste conforme necessário */
-  left: 500px; /* Ajuste conforme necessário */
-  z-index: 2; /* Coloca a galeria acima do SVG */
+  top: 550px;
+  left: 500px;
+  z-index: 2;
 }
