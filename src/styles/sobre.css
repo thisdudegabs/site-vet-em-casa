@@ -1,5 +1,33 @@
+.costum h1 {
+  text-align: center;
+  font-size: 18px; /* Ajuste para o tamanho desejado */
+  background: -webkit-linear-gradient(left, #4b0082, #ee71a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.costum p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 .curva-bg svg {
-  margin-top: -180px;
+  margin-top: -450px;
   display: block;
-  width: 160%;
+  width: 260%;
+}
+
+.curva-bg {
+  position: relative;
+  z-index: 1; /* Coloca o SVG abaixo da galeria */
+}
+
+.galeria-bg {
+  position: absolute;
+  top: 550px; /* Ajuste conforme necessário */
+  left: 500px; /* Ajuste conforme necessário */
+  z-index: 2; /* Coloca a galeria acima do SVG */
 }

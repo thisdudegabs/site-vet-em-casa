@@ -24,7 +24,7 @@ const SectionContato = ({ contatoClass }) => {
           <Col lg="6" md="6">
             <div className="section_contato-conteudo">
               <h2 className="section_title">
-                Marque sua consulta agora mesmo!
+                Marque seu Atendimento Agora Mesmo!
               </h2>
               <p className="description">
                 Incididunt enim ea sit commodo. Enim anim non reprehenderit

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/sobre.css";
 import "../assets/all-images/Fillers/wavebg1.svg";
+import Galeria from "../components/UI/Galeria";
 
 const Sobre = () => {
   return (
@@ -12,7 +13,7 @@ const Sobre = () => {
           <Row>
             <Col>
               <section>
-                <div>
+                <div className="costum">
                   <h1>NÓS AMAMOS O QUE FAZEMOS</h1>
                   <p>
                     Nosso excelente time de veterinários, fisioterapeutas,
@@ -28,7 +29,13 @@ const Sobre = () => {
       </section>
 
       <section>
+        <Galeria />
+      </section>
+
+      {/*}      <section>
         <div className="curva-bg">
+
+
           <div className="curva-cima">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
@@ -49,83 +56,7 @@ const Sobre = () => {
             </svg>
           </div>
         </div>
-      </section>
-
-      <section>
-        <div className="galeria">
-          <div>
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto1.png"
-                alt="Foto Veterinário Com o Pet 1"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto2.png"
-                alt="Foto Veterinário Com o Pet 2"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto3.png"
-                alt="Foto Veterinário Com o Pet 3"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto4.png"
-                alt="Foto Veterinário Com o Pet 4"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto5.png"
-                alt="Foto Veterinário Com o Pet 5"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto6.png"
-                alt="Foto Veterinário Com o Cachorro"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto7.png"
-                alt="Foto Veterinário Com o Cachorro"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto8.jpeg"
-                alt="Foto Veterinário Com o Cachorro"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto9.jpeg"
-                alt="Foto Veterinário Com o Cachorro"
-              />
-            </span>
-
-            <span>
-              <img
-                src="../assets/all-images/Galeria/foto10.png"
-                alt="Foto Veterinário Com o Cachorro"
-              />
-            </span>
-          </div>
-        </div>
-      </section>
+  </section>*/}
     </Helmet>
   );
 };

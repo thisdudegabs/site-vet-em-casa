@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
 import Helmet from "../components/Helmet/Helmet";
 import "../styles/especialidades.css";
 import "../styles/card-time.css";
 
 import CardTime from "../components/UI/CardTime";
-import SectionEspecialidades from "../components/UI/SectionEspecialidades";
 
 import TrabalheConosco from "../components/UI/TrabalheConosco";
 

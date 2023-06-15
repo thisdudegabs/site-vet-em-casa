@@ -1,0 +1,32 @@
+.Galeria {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  cursor: grab;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  min-height: 200px;
+  min-width: 400px;
+  padding: 14px;
+}
+
+.item img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover; /* mantém a altura das imagens a mesma, enquanto preserva a proporção */
+  border-radius: 12px;
+  pointer-events: none;
+}
