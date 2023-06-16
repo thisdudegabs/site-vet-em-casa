@@ -2,7 +2,6 @@ import React from "react";
 
 import { Container, Row } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
-import "../styles/contato.css";
 
 import TopoDePágina from "../components/UI/TopoDePágina";
 import SectionContato from "../components/UI/SectionContato";

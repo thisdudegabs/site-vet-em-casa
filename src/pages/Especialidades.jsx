@@ -28,7 +28,7 @@ const Especialidades = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12" className="mb-5 text-center">
+            <Col lg="12" className="mb-2 mt-5 text-center">
               <h6 className="section_subtitle custom_top">Especialistas</h6>
               <h2 className="section_title">Nosso Time</h2>
               <CardTime showCardTime={showCardTime} />

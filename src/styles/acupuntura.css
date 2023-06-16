@@ -10,11 +10,12 @@
 }
 
 .costum_acupuntura-btn {
-  color: #fff !important;
+  color: #fff;
   border: none;
   outline: none;
-  margin-left: 65vw;
-  margin-top: -14vh;
+  position: relative;
+  margin-left: 51vw;
+  top: -12vh;
 }
 
 .costum_acupuntura-btn a {
@@ -25,13 +26,29 @@
 
 @media only screen and (max-width: 1024px) {
   .costum_acupuntura-btn {
-    margin-left: 500vw !important;
-    margin-top: -14vh;
+    position: relative;
+    transform: translateY(1vh) translateX(45vw);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .costum_acupuntura-btn {
+    position: relative;
+    transform: translateY(-4vh) translateX(38vw);
+    max-width: 25vw;
+    min-height: 0.5vh;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .section_costum {
     margin-top: 30vh !important;
+  }
+
+  .costum_acupuntura-btn {
+    position: relative;
+    transform: translateY(1vh) translateX(10vw);
+    max-width: 45vw;
+    min-height: 0.4vh;
   }
 }

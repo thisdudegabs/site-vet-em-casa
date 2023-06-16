@@ -14,13 +14,13 @@ const Acupuntura = () => {
           <Row>
             <Col className="section_costum">
               <SectionAcupuntura />
+              <button className="btn mt-4 costum_acupuntura-btn ">
+                <Link to="/contato">Examinar meu Pet</Link>
+              </button>
             </Col>
           </Row>
         </Container>
-
-        <button className="btn costum_acupuntura-btn ">
-          <Link to="/contato">Examinar meu Pet</Link>
-        </button>
+        <div></div>
       </section>
 
       <section className="curve-bg">

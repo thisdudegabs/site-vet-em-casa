@@ -10,6 +10,7 @@ import SectionVantagensConsulta from "../components/UI/SectionVantagensConsulta"
 
 const Consulta = () => {
   const customStyles = {
+    /*const devido a erro na estilização do botão via css*/
     className: "btn-location",
     position: "relative",
     top: "-10vh",
