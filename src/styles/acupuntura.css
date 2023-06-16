@@ -1,9 +1,9 @@
 .section_costum {
-  margin-top: 50px !important;
+  margin-top: 6vh !important;
 }
 
 .costum_section-subtitle {
-  margin-top: -10px;
+  margin-top: 2vh;
   color: #ffd700;
   font-weight: 600;
   font-size: 2rem;
@@ -13,12 +13,25 @@
   color: #fff !important;
   border: none;
   outline: none;
-  margin-left: 1200px;
-  margin-top: -140px;
+  margin-left: 65vw;
+  margin-top: -14vh;
 }
 
 .costum_acupuntura-btn a {
   text-decoration: none;
   font-weight: 600;
   color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+  .costum_acupuntura-btn {
+    margin-left: 500vw !important;
+    margin-top: -14vh;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section_costum {
+    margin-top: 30vh !important;
+  }
 }

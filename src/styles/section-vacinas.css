@@ -19,3 +19,94 @@
   margin-top: -250px;
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .section_vacina-conteudo {
+    font-size: 0.7rem;
+  }
+
+  .section_vacina-conteudo h2 {
+    font-size: 1.5rem;
+    margin-left: 7vw;
+    margin-right: 2vw;
+  }
+
+  .section_vacina-conteudo p {
+    margin-left: 5rem;
+  }
+
+  .vacina_img img {
+    margin-top: -25vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section_vacina-conteudo {
+    font-size: 0.5rem;
+  }
+
+  .section_vacina-conteudo h2 {
+    font-size: 1.5rem;
+    margin-left: 7vw;
+    margin-right: 2vw;
+  }
+
+  .section_vacina-conteudo p {
+    margin-left: 2rem;
+  }
+
+  .vacina_img img {
+    margin-top: -25vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section_vacina-conteudo {
+    font-size: 0.7rem;
+  }
+
+  .section_vacina-conteudo h2 {
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    margin-left: 5vw;
+  }
+
+  .section_vacina-conteudo p {
+    margin-left: 1rem;
+  }
+
+  .vacina_img img {
+    margin-top: -90vh;
+    margin-bottom: 20vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section_vacina-conteudo {
+    margin-top: -30vh;
+    font-size: 0.7rem;
+  }
+
+  .section_vacina-conteudo h2 {
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    margin-left: 5vw;
+  }
+
+  .section_vacina-conteudo p {
+    margin-left: 1rem;
+  }
+
+  .vacina_img img {
+    margin-top: -100vh;
+    margin-bottom: 30vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}

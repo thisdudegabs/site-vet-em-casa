@@ -19,7 +19,7 @@ const Vacinas = () => {
 
         <button
           className="btn costum_vacina-btn"
-          style={{ top: "-70px", left: "240px" }}
+          style={{ top: "-12vh", left: "14vw" }}
         >
           <Link to="/contato">Cuidar do meu Pet</Link>
         </button>

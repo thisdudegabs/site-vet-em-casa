@@ -10,9 +10,10 @@ import SectionVantagensConsulta from "../components/UI/SectionVantagensConsulta"
 
 const Consulta = () => {
   const customStyles = {
+    className: "btn-location",
     position: "relative",
-    top: "-100px",
-    left: "1200px",
+    top: "-10vh",
+    left: "65vw",
   };
 
   return (

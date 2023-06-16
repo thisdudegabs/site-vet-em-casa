@@ -15,3 +15,65 @@
   margin-left: -50px;
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .section_acupuntura-conteudo {
+    font-size: 0.7rem;
+  }
+
+  .section_acupuntura-conteudo h2 {
+    margin-left: 10vw;
+  }
+
+  .section_acupuntura-conteudo p {
+    margin-left: 5rem;
+  }
+
+  .acupuntura_img img {
+    margin-top: -25vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section_acupuntura-conteudo {
+    font-size: 0.5rem;
+  }
+
+  .section_acupuntura-conteudo h2 {
+    margin-left: 5vw;
+  }
+
+  .section_acupuntura-conteudo p {
+    margin-left: 2rem;
+  }
+
+  .acupuntura_img img {
+    margin-top: -25vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .section_acupuntura-conteudo {
+    margin-top: -22vh;
+
+    font-size: 0.7rem;
+  }
+
+  .section_acupuntura-conteudo h2 {
+    margin-left: 5vw;
+  }
+
+  .section_acupuntura-conteudo p {
+    margin-left: 1rem;
+  }
+
+  .acupuntura_img img {
+    margin-top: -80vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}

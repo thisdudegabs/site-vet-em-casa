@@ -6,7 +6,7 @@
   color: #fff !important;
   border: none;
   outline: none;
-  margin-left: 180px;
+  margin-left: 10vw;
   position: relative;
 }
 .costum_vacina-btn a {
@@ -21,4 +21,50 @@
 
 .custom_margin_top {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .btn {
+    left: 5vw !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .btn {
+    margin-top: 2vh;
+    margin-left: 15vw !important;
+  }
+
+  .vacina_page-section {
+    margin-top: 4vh;
+  }
+
+  .costum_vacina-btn {
+    color: #fff !important;
+    border: none;
+    outline: none;
+    position: relative;
+  }
+  .costum_vacina-btn a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .vacinas_section h2 {
+    color: #fff;
+  }
+
+  .custom_margin_top {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+@media only screen and (max-width: 320px) {
 }
