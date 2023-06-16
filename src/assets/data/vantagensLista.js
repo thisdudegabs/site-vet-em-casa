@@ -22,7 +22,7 @@ const vantagensLista = [
 
   {
     id: 4,
-    title: "vantagem 4 ou outras vantagens",
+    title: "vantagem 4",
     icon: "ri-file-add-line",
     desc: " Elit consequat consequat minim et amet voluptate ipsum aute.",
   },

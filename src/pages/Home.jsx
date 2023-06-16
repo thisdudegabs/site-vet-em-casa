@@ -10,7 +10,6 @@ import SectionEspecialidades from "../components/UI/SectionEspecialidades";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "../styles/animation.css";
 
 const Home = () => {
   useEffect(() => {

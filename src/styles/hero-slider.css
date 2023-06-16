@@ -1,12 +1,12 @@
 .slider_item {
   max-width: 100%;
   height: 750px;
-  z-index: 1; /* adicionado */
-  position: relative; /* adicionado */
+  z-index: 1;
+  position: relative;
 }
 
 .slick-current {
-  z-index: 2; /* adicionado */
+  z-index: 2;
 }
 
 .slider_item-01 {
@@ -81,25 +81,160 @@
 
 @media only screen and (max-width: 992px) {
   .slider_item {
-    height: 530px;
+    height: 90vh;
     width: 100%;
   }
 
-  .slider_content {
-    margin-top: -70px;
+  .slider_item-01 {
+    margin-top: 100px;
   }
 
-  .slider_content h1 {
-    font-size: 2rem;
+  .slider_item-02 {
+    margin-top: 100px;
+  }
+
+  .slider_item-03 {
+    margin-top: 100px;
+  }
+
+  .slider_content h2 {
+    max-width: 400px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    position: relative;
+    left: 550px;
+    word-wrap: break-word;
+  }
+
+  .custom-h2-1 {
+    color: #4b0082;
+  }
+
+  .custom-h2-2 {
+    color: #fff;
+  }
+
+  .custom-h2-3 {
+    color: #4b0082;
+  }
+
+  .reserve_btn {
+    color: #fff !important;
+    border: none;
+    outline: none;
+    margin-left: 600px;
+  }
+
+  .reserve_btn a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .slider_item {
-    height: 450px;
+    height: 90vh;
+    width: 100%;
   }
 
-  .slider_content h1 {
-    font-size: 1.5rem;
+  .slider_item-01 {
+    margin-top: 100px;
+  }
+
+  .slider_item-02 {
+    margin-top: 100px;
+  }
+
+  .slider_item-03 {
+    margin-top: 100px;
+  }
+
+  .slider_content h2 {
+    max-width: 230px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    position: relative;
+    left: 490px;
+    white-space: break-word;
+  }
+
+  .custom-h2-1 {
+    color: #4b0082;
+  }
+
+  .custom-h2-2 {
+    color: #fff;
+  }
+
+  .custom-h2-3 {
+    color: #4b0082;
+  }
+
+  .reserve_btn {
+    color: #fff !important;
+    border: none;
+    outline: none;
+    margin-left: 500px;
+  }
+
+  .btn1 {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .slider_item {
+    height: 90vh;
+    width: 100%;
+  }
+
+  .slider_item-01 {
+    background-position: 60% center;
+    margin-top: 100px;
+  }
+
+  .slider_item-02 {
+    background-position: 60% center;
+
+    margin-top: 100px;
+  }
+
+  .slider_item-03 {
+    background-position: 500% center;
+
+    margin-top: 100px;
+  }
+
+  .slider_content h2 {
+    max-width: 230px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    position: relative;
+    left: 490px;
+    white-space: break-word;
+  }
+
+  .custom-h2-1 {
+    color: #4b0082;
+  }
+
+  .custom-h2-2 {
+    color: #fff;
+  }
+
+  .custom-h2-3 {
+    color: #4b0082;
+  }
+
+  .reserve_btn {
+    color: #fff !important;
+    border: none;
+    outline: none;
+    margin-left: 500px;
+  }
+
+  .btn1 {
+    text-decoration: none;
   }
 }

@@ -1,8 +1,10 @@
 .main_navbar {
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 15px 0px;
   background: #fff;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .mobile_menu {
@@ -15,18 +17,11 @@
   display: none;
 }
 
-.menu_left {
+.menu {
   display: flex;
   align-items: center;
   column-gap: 2.7rem;
-  margin-left: 270px;
-}
-
-.menu_right {
-  display: flex;
-  align-items: center;
-  column-gap: 2.7rem;
-  margin-right: 270px;
+  margin-right: 200px;
 }
 
 .nav_item {
@@ -54,8 +49,8 @@
     display: block;
   }
 
-  .navigation_left {
-    background: rgba(221, 160, 221);
+  .navigation {
+    background: rgba(0, 13, 107, 0.6);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -65,18 +60,7 @@
     display: none;
   }
 
-  .navigation_right {
-    background: rgba(221, 160, 221);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    display: none;
-  }
-
-  .menu_left {
+  .menu {
     width: 250px;
     height: 100%;
     background: #fff;
@@ -87,25 +71,8 @@
     justify-content: center;
   }
 
-  .menu_left a {
-    color: #987ea4;
-    font-weight: 600;
-    font-size: 0.9rem;
-  }
-
-  .menu_right {
-    width: 250px;
-    height: 100%;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 2rem;
-    justify-content: center;
-  }
-
-  .menu_right a {
-    color: #987ea4;
+  .menu a {
+    color: #4b0082;
     font-weight: 600;
     font-size: 0.9rem;
   }
