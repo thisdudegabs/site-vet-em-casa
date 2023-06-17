@@ -1,5 +1,6 @@
 .custom_consulta {
   margin-top: 4vh;
+  margin-bottom: 0;
 }
 
 .custom_consulta-btn {
@@ -25,7 +26,7 @@
 }
 
 .clientTitle h6 {
-  margin-top: -4vh;
+  margin-top: -8vh;
   font-weight: 600;
 }
 
@@ -37,6 +38,7 @@
 
 .curve-bg1 {
   /*mascara criada com https://css-generators.com/wavy-shapes/ */
+  margin-top: -4vh;
 
   background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
   --mask: radial-gradient(52.57px at 50% 71.25px, #000 99%, #0000 101%)
@@ -92,6 +94,10 @@
     margin-top: 2vh;
     color: #987ea4;
     font-weight: 600;
+  }
+
+  .curve-bg1 {
+    margin-top: -10vh;
   }
 }
 

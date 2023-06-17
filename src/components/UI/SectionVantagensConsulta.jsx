@@ -20,13 +20,7 @@ const SectionVantagensConsulta = () => {
 };
 
 const ServiceItem = ({ item }) => (
-  <Col
-    lg="6"
-    md="6"
-    sm="12"
-    className="mb-3"
-    style={{ marginLeft: "-50px", marginRight: "-50px" }}
-  >
+  <Col lg="6" md="6" sm="12" className="mb-3" style={{ marginLeft: "-2vw" }}>
     <div className="services_item items_costum-vantagens">
       <span className="mb-3 d-inline-block text-center">
         <i className={item.icon} />

@@ -25,12 +25,12 @@
 }
 
 .icon-img {
-  width: 90px;
-  height: 90px;
+  min-width: 5vw;
+  max-height: 10vh;
 }
 
 .vacinas_title-costum {
-  margin-top: 30px;
+  margin-top: 2vh;
   padding-left: 1.2em;
 }
 
@@ -38,8 +38,102 @@
   margin-left: 1em;
 }
 
+@media only screen and (max-width: 1024px) {
+  .icon-img {
+    min-width: 5vw;
+    max-height: 10vh;
+    margin-left: -10vw;
+  }
+
+  .vacinas_title-costum {
+    margin-top: 2vh;
+    margin-left: -10vw;
+  }
+
+  .services_item ul {
+    margin-left: -10vw;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  service_item h6 {
+  .service_item h6 {
     font-size: 1.1rem;
+  }
+  .icon-img {
+    min-width: 5vw;
+    max-height: 10vh;
+    margin-left: -25vw;
+  }
+
+  .vacinas_title-costum {
+    margin-top: 2vh;
+    margin-left: -24vw;
+  }
+
+  .services_item ul {
+    margin-left: -24vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .service_item h6 {
+    font-size: 1.1rem;
+  }
+  .icon-img {
+    min-width: 5vw;
+    max-height: 10vh;
+    margin-left: -55vw;
+  }
+
+  .vacinas_title-costum {
+    margin-top: 2vh;
+    margin-left: -52vw;
+  }
+
+  .services_item ul {
+    padding-left: 1em;
+    margin-left: -55vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .service_item h6 {
+    font-size: 1.1rem;
+  }
+  .icon-img {
+    min-width: 5vw;
+    max-height: 10vh;
+    margin-left: -70vw;
+  }
+
+  .vacinas_title-costum {
+    margin-top: 2vh;
+    margin-left: -68vw;
+  }
+
+  .services_item ul {
+    padding-left: 1em;
+    margin-left: -70vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .service_item h6 {
+    font-size: 1.1rem;
+  }
+  .icon-img {
+    min-width: 5vw;
+    max-height: 10vh;
+    margin-left: -90vw;
+  }
+
+  .vacinas_title-costum {
+    margin-top: 2vh;
+    margin-left: -88vw;
+  }
+
+  .services_item ul {
+    padding-left: 1em;
+    margin-left: -95vw;
   }
 }

@@ -36,7 +36,7 @@ const ServiceItem = ({ item }) => (
         <h6 className="text-center">{item.title}</h6>
         <p
           className="section_description-costum  compact"
-          style={{ marginLeft: "180px", maxWidth: "300px" }}
+          style={{ marginLeft: "10vw", maxWidth: "15vw" }}
         >
           {item.desc}
         </p>

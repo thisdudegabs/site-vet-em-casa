@@ -38,18 +38,22 @@ const SectionContato = ({ contatoClass }) => {
               </p>
             </div>
 
-            <i className="ri-whatsapp-line custom-icon"></i>
-
-            <a
-              href="https://wa.me/5511989911582"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="custom-link"
+            <div
+              className="button-icon-wrapper"
+              style={{ position: "relative" }}
             >
-              <button className="btn contact_btn mt-1 custom-button">
-                Marcar Consulta ou Exame!
-              </button>
-            </a>
+              <i className="ri-whatsapp-line custom-icon"></i>
+              <a
+                href="https://wa.me/5511989911582"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="custom-link"
+              >
+                <button className="btn contact_btn custom-button">
+                  Marcar Consulta ou Exame!
+                </button>
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>

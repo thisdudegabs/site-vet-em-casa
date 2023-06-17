@@ -1,9 +1,5 @@
 .content_costum-vantagens {
-  margin-left: -400px;
-}
-
-.items_costum-vantagens i {
-  margin-left: -150px;
+  margin-left: -20vw;
 }
 
 .description-vantagens {
@@ -17,4 +13,63 @@
   font-size: 20px;
   max-width: 200px;
   margin-left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .items_costum-vantagens i {
+    margin-left: -25vw !important;
+  }
+
+  .content_costum-vantagens {
+    margin-left: -45vw;
+    margin-right: -15vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items_costum-vantagens i {
+    margin-left: -55vw !important;
+  }
+
+  .content_costum-vantagens {
+    margin-left: -65vw;
+    margin-right: -10vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .items_costum-vantagens i {
+    margin-left: -85vw !important;
+  }
+
+  .content_costum-vantagens {
+    margin-left: -115vw;
+    margin-right: -25vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .items_costum-vantagens i {
+    margin-left: -80vw !important;
+  }
+
+  .content_costum-vantagens {
+    margin-left: -150vw;
+    margin-right: -30vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .items_costum-vantagens i {
+    margin-left: -150vw !important;
+  }
+
+  .content_costum-vantagens {
+    margin-left: -170vw;
+    margin-right: -18vw;
+  }
+
+  .description-vantagens {
+    font-size: 0.8rem;
+  }
 }
