@@ -5,10 +5,8 @@
 }
 
 .logo-container {
-  display: flex;
-  align-items: center;
   margin-top: 70px;
-  z-index: 100%;
+  z-index: 1000;
 }
 
 .logo-container p {

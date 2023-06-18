@@ -44,12 +44,7 @@ const Footer = () => {
             <div className="logo-container">
               <h1>
                 <Link to="/home" className="d-flex align-items-center gap-2">
-                  <img
-                    src={logoImg}
-                    className="logo_footer"
-                    alt="Logo"
-                    style={{ marginTop: "15px", marginLeft: "-80px" }}
-                  />
+                  <img src={logoImg} className="logo_footer" alt="Logo" />
                 </Link>
               </h1>
               <p className="logo_footer-content">
