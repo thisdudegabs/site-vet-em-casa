@@ -13,7 +13,7 @@ const SectionVacinas = ({ vacinaClass }) => {
           : { marginTop: "150px" }
       }
     >
-      <Container>
+      <Container className="section-wrapper">
         <Row>
           <Col lg="6" md="6">
             <div className="section_vacina-conteudo">
