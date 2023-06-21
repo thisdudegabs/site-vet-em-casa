@@ -105,6 +105,7 @@
   }
 
   .section_consulta-conteudo h2 {
+    font-size: 1.5rem;
     margin-left: 5vw;
     margin-top: 30vh;
   }
@@ -123,16 +124,17 @@
 @media only screen and (max-width: 425px) {
   .section_consulta-conteudo {
     margin-top: -28vh;
-
-    font-size: 0.7rem;
   }
 
   .section_consulta-conteudo h2 {
+    font-size: 1.5rem;
+
     margin-left: 5vw;
   }
 
   .section_consulta-conteudo p {
     margin-left: 1rem;
+    font-size: 0.8rem;
   }
 
   .consulta_img img {

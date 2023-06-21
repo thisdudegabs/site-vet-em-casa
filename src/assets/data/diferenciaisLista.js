@@ -22,7 +22,7 @@ const diferenciaisLista = [
 
   {
     id: 4,
-    title: "Super Confortável Para Seu Pet",
+    title: "Confortável Pro Pet",
     icon: "ri-emotion-happy-line",
     desc: " Elit consequat consequat minim et amet voluptate ipsum aute.",
   },

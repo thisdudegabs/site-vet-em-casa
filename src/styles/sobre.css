@@ -62,17 +62,32 @@ section {
   font-size: 1.1em;
 }
 
+@media only screen and (max-width: 1440px) {
+  .costum-intro h1 {
+    margin-top: 4vh;
+  }
+
+  .valores-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .valores-text p {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .costum-intro h1 {
     margin-top: 4vh;
   }
 }
 
-@media only screen and (max-width: 768px) {
-}
+@media only screen and (max-width: 991px) {
+  .valores-text h1 {
+    font-size: 0rem;
+  }
 
-@media only screen and (max-width: 425px) {
-}
-
-@media only screen and (max-width: 320px) {
+  .valores-text p {
+    font-size: 0rem;
+  }
 }

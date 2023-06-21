@@ -90,7 +90,7 @@
   }
 
   .section_acupuntura-conteudo h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 5vw;
   }
 
@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 425px) {
   .section_acupuntura-conteudo {
-    margin-top: -22vh;
+    margin-top: -35vh;
 
     font-size: 0.7rem;
   }
@@ -119,10 +119,11 @@
 
   .section_acupuntura-conteudo p {
     margin-left: 1rem;
+    font-size: 0.8rem;
   }
 
   .acupuntura_img img {
-    margin-top: -80vh;
+    margin-top: -100vh;
     margin-left: 1vw;
     border-radius: 20px;
   }

@@ -44,6 +44,16 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .section_especi-conteudo h2 {
+    font-size: 1rem;
+  }
+
+  .section_especi-conteudo p {
+    margin-left: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .section_especi-conteudo {
     margin-top: -30vh;
@@ -67,6 +77,54 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .section_especi-conteudo {
+    margin-top: 2vh;
+    font-size: 0.5rem;
+  }
+
+  .section_especi-conteudo h2 {
+    font-size: 1.5rem;
+    margin-left: 7vw;
+    margin-right: 2vw;
+  }
+
+  .section_especi-conteudo p {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .especi_img img {
+    margin-top: -140vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .section_especi-conteudo {
+    margin-top: 2vh;
+    font-size: 0.5rem;
+  }
+
+  .section_especi-conteudo h2 {
+    font-size: 1.5rem;
+    margin-left: 7vw;
+    margin-right: 2vw;
+  }
+
+  .section_especi-conteudo p {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .especi_img img {
+    margin-top: -160vh;
+    margin-left: 1vw;
+    border-radius: 20px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .section_especi-conteudo {
     margin-top: -20vh;
@@ -81,13 +139,38 @@
 
   .section_especi-conteudo p {
     margin-left: 1rem;
+    font-size: 0.8rem;
   }
 
   .especi_img img {
-    margin-top: -90vh;
+    margin-top: -100vh;
     margin-bottom: 20vh;
     margin-left: 1vw;
     border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .especi_img img {
+    margin-top: -115vh;
+  }
+
+  .section_especi-conteudo h2 {
+    font-size: 1.5rem;
+  }
+
+  .section_especi-conteudo p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .especi_img img {
+    margin-top: -115vh;
+  }
+
+  .section_especi-conteudo p {
+    font-size: 0.8rem;
   }
 }
 
@@ -108,7 +191,7 @@
   }
 
   .especi_img img {
-    margin-top: -100vh;
+    margin-top: -120vh;
     margin-bottom: 30vh;
     margin-left: 1vw;
     border-radius: 20px;

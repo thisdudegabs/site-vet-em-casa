@@ -1,7 +1,7 @@
 const valoresLista = [
   {
     id: 1,
-    title: "Atendimento de Qualidade!",
+    title: "Qualidade!",
     icon: "ri-bear-smile-line",
     desc: " Elit consequat consequat minim et amet voluptate ipsum aute.",
   },
@@ -22,7 +22,7 @@ const valoresLista = [
 
   {
     id: 4,
-    title: "Amor e Dedicação ao Pet!",
+    title: "Dedicação ao Pet!",
     icon: "ri-hand-heart-line",
     desc: " Elit consequat consequat minim et amet voluptate ipsum aute.",
   },

@@ -95,6 +95,15 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .custom_consulta-btn {
+    position: relative;
+    transform: translateY(1vh) translateX(1vw);
+    max-width: 25vw;
+    min-height: 0.5vh;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .custom_consulta-btn {
     position: relative;

@@ -13,7 +13,7 @@ const SectionAcupuntura = ({ acupunClass }) => {
           : { marginTop: "150px" }
       }
     >
-      <Container>
+      <Container className="acupun-wrapper">
         <Row>
           <Col lg="6" md="6">
             <div className="acupuntura_img">

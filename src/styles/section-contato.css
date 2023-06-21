@@ -9,7 +9,6 @@
 .custom-icon {
   color: #00a54e;
   position: relative;
-  font-size: 1.5vw;
   left: 4vw;
 }
 
@@ -17,9 +16,10 @@
   background-color: #fff !important;
   color: #00a54e !important;
   outline: auto !important;
-  position: relative;
-  width: 15vw;
-  left: 5vw;
+  position: absolute;
+  width: 25vw;
+  transform: translate(170%, 90%);
+  max-width: 15vw;
 }
 
 .custom-button:hover {
@@ -43,8 +43,24 @@
   }
 
   .custom-button {
+    max-width: 15vw;
+    transform: translate(150%, 20%);
+  }
+}
+
+@media only screen and (max-width: 1999px) {
+  .custom-icon {
+    font-size: 3vw;
+  }
+
+  .custom-button {
     width: 28vw;
     top: -1vh;
+    margin-left: -20vw;
+  }
+
+  .contato_img img {
+    margin-top: 10vh;
   }
 }
 
@@ -54,17 +70,29 @@
   }
 
   .custom-button {
-    position: absolute;
-    left: 0;
-    top: 20vh;
-    width: 25vw;
-    transform: translate(-40%, -470%);
+    max-width: 40vw;
+
+    transform: translate(-75%, -20%);
   }
 
   .contato_img {
     max-width: 25vw;
-    margin-top: -30vh;
+    margin-top: -45vh;
     margin-left: 10vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .custom-icon {
+    font-size: 3vw;
+  }
+
+  .custom-button {
+    transform: translate(-60%, -15%);
+  }
+
+  .contato_img {
+    margin-top: -40vh;
   }
 }
 
@@ -83,7 +111,7 @@
 
   .contato_img {
     max-width: 25vw;
-    margin-top: -30vh;
+    margin-top: -40vh;
     margin-left: 10vw;
   }
 
@@ -96,17 +124,14 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
   .custom-icon {
-    font-size: 8vw;
+    font-size: 0;
   }
 
   .custom-button {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 60vw;
-    transform: translate(-4%, -15%);
+    top: 6vh;
+    transform: translate(-80%, -90%);
   }
 
   .contato_img {

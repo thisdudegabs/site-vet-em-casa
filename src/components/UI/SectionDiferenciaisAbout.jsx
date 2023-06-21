@@ -20,13 +20,7 @@ const SectionDiferenciaisAbout = () => {
 };
 
 const ServiceItem = ({ item }) => (
-  <Col
-    lg="6"
-    md="6"
-    sm="12"
-    className="mb-3"
-    style={{ marginLeft: "-50px", marginRight: "-50px" }}
-  >
+  <Col lg="6" md="6" sm="12" className="mb-3">
     <div className="services_item items_costum-about">
       <span className="mb-3 d-inline-block text-center">
         <i className={item.icon} />
@@ -34,10 +28,7 @@ const ServiceItem = ({ item }) => (
 
       <div className="service_content content_costum-about">
         <h6 className="text-center">{item.title}</h6>
-        <p
-          className="section_description description_costum-about compact"
-          style={{ marginLeft: "180px", maxWidth: "300px" }}
-        >
+        <p className="section_description description_costum-about compact">
           {item.desc}
         </p>
       </div>

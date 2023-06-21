@@ -13,7 +13,7 @@ const SectionEspecialidades = ({ especiClass }) => {
           : { marginTop: "150px" }
       }
     >
-      <Container>
+      <Container className="especi-wrapper">
         <Row>
           <Col lg="6" md="6">
             <div className="section_especi-conteudo">

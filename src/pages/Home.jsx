@@ -7,6 +7,7 @@ import SectionConsulta from "../components/UI/SectionConsulta";
 import SectionVacinas from "../components/UI/SectionVacinas";
 import SectionAcupuntura from "../components/UI/SectionAcupuntura";
 import SectionEspecialidades from "../components/UI/SectionEspecialidades";
+import "../styles/home.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -39,7 +40,7 @@ const Home = () => {
       </section>
 
       {/* ========== parte sobre Exames ============== */}
-      <section className="section-exames" data-aos="fade-down">
+      <section className="section-acupuntura" data-aos="fade-down">
         <Container>
           <SectionAcupuntura />
         </Container>

@@ -1,20 +1,142 @@
 .content_costum-about {
-  margin-left: -400px;
+  margin-left: -21vw;
 }
 
 .items_costum-about i {
-  margin-left: -150px;
+  margin-left: -8vw;
 }
 
-.description_costum-about {
+.content_costum-about p {
   white-space: pre-wrap;
   color: #987ea4;
   font-weight: 600;
   font-size: 1.1rem;
+  max-width: 15vw;
 }
 
-.description_costum-about .compact {
-  font-size: 20px;
-  max-width: 200px;
-  margin-left: 0;
+@media only screen and (max-width: 1440px) {
+  .content_costum-about {
+    margin-left: -25vw;
+  }
+
+  .items_costum-about i {
+    margin-left: -15vw;
+  }
+
+  .content_costum-about p {
+    max-width: 20vw;
+    margin-left: 7vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .items_costum-about i {
+    margin-left: -40vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 5vw;
+  }
+  .content_costum-about p {
+    max-width: 25vw;
+    margin-left: 4vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .items_costum-about i {
+    margin-left: -50vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 27vw;
+  }
+  .content_costum-about p {
+    max-width: 30vw;
+    margin-left: 27vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .items_costum-about i {
+    margin-left: -30vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 22vw;
+  }
+  .content_costum-about p {
+    max-width: 30vw;
+    margin-left: 20vw;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .items_costum-about i {
+    margin-left: -40vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 11vw;
+  }
+  .content_costum-about p {
+    max-width: 45vw;
+    margin-left: 7vw;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .items_costum-about i {
+    margin-left: -60vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: -4vw;
+  }
+  .content_costum-about p {
+    max-width: 45vw;
+    margin-left: -4vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .items_costum-about i {
+    margin-left: -80vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 15vw;
+  }
+  .content_costum-about p {
+    max-width: 45vw;
+    margin-left: 15vw;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .items_costum-about i {
+    margin-left: -120vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 20vw;
+  }
+  .content_costum-about p {
+    max-width: 45vw;
+    margin-left: 25vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .items_costum-about i {
+    margin-left: -150vw;
+  }
+
+  .content_costum-about h6 {
+    margin-left: 35vw;
+  }
+  .content_costum-about p {
+    max-width: 70vw;
+    margin-left: 33vw;
+  }
 }
