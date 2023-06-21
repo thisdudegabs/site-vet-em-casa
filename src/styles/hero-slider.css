@@ -78,24 +78,6 @@ body {
   margin-right: 4vw;
 }
 
-@media only screen and (max-width: 1865px) {
-  .slider_content h2 {
-    max-width: 30%;
-    font-size: 3.2rem;
-    font-weight: 600;
-    position: relative;
-    word-wrap: break-word;
-  }
-
-  .reserve_btn {
-    color: #fff !important;
-    border: none;
-    outline: none;
-    position: relative;
-    margin-right: 4vw;
-  }
-}
-
 @media only screen and (max-width: 1440px) {
   .reserve_btn {
     margin-right: 10vw;
@@ -130,7 +112,6 @@ body {
   .slider_content h2 {
     max-width: 25vw;
     font-size: 2.2rem;
-    position: relative;
     right: -4vw;
     margin-top: 10vh;
   }
@@ -145,7 +126,6 @@ body {
   .slider_content h2 {
     max-width: 20vw;
     font-size: 1.8rem;
-    position: relative;
     right: -4vw;
     margin-top: 10vh;
   }
@@ -166,7 +146,6 @@ body {
   }
 
   .reserve_btn {
-    position: relative;
     max-width: 30vw;
     top: 32vh;
     margin-right: 8vw;
@@ -184,7 +163,6 @@ body {
   }
 
   .reserve_btn {
-    position: relative;
     max-width: 40vw;
     top: 32vh;
     margin-right: 4vw;

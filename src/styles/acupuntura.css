@@ -27,35 +27,30 @@
 
 @media only screen and (max-width: 1440px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(1vh) translateX(10vw);
   }
 }
 
 @media only screen and (max-width: 1399px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(1vh) translateX(1vw);
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(1vh) translateX(45vw);
   }
 }
 
 @media only screen and (max-width: 991px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(1vh) translateX(30vw);
   }
 }
 
 @media only screen and (max-width: 768px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(-2vh) translateX(38vw);
     max-width: 25vw;
     min-height: 0.5vh;
@@ -64,10 +59,7 @@
 
 @media only screen and (max-width: 767px) {
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(2vh) translateX(5vw);
-    max-width: 25vw;
-    min-height: 0.5vh;
   }
 }
 
@@ -77,7 +69,6 @@
   }
 
   .costum_acupuntura-btn {
-    position: relative;
     transform: translateY(1vh) translateX(10vw);
     max-width: 45vw;
     min-height: 0.4vh;

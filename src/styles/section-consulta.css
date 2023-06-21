@@ -16,68 +16,6 @@
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 1399px) {
-  .section_consulta-conteudo {
-    font-size: 1rem;
-  }
-
-  .section_consulta-conteudo h2 {
-    font-size: 1.5rem;
-    margin-left: 10vw;
-  }
-
-  .section_consulta-conteudo p {
-    margin-left: 5rem;
-  }
-
-  .consulta_img img {
-    margin-top: -25vh;
-    margin-left: 1vw;
-    border-radius: 20px;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  .section_consulta-conteudo {
-    font-size: 0.7rem;
-  }
-
-  .section_consulta-conteudo h2 {
-    font-size: 1.5rem;
-    margin-left: 10vw;
-  }
-
-  .section_consulta-conteudo p {
-    margin-left: 5rem;
-  }
-
-  .consulta_img img {
-    margin-top: -25vh;
-    margin-left: 1vw;
-    border-radius: 20px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .section_consulta-conteudo {
-    font-size: 0.7rem;
-  }
-
-  .section_consulta-conteudo h2 {
-    margin-left: 10vw;
-  }
-
-  .section_consulta-conteudo p {
-    margin-left: 5rem;
-  }
-
-  .consulta_img img {
-    margin-top: -25vh;
-    margin-left: 1vw;
-    border-radius: 20px;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   .section_consulta-conteudo {
     font-size: 0.6rem;
@@ -121,28 +59,6 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .section_consulta-conteudo {
-    margin-top: -28vh;
-  }
-
-  .section_consulta-conteudo h2 {
-    font-size: 1.5rem;
-
-    margin-left: 5vw;
-  }
-
-  .section_consulta-conteudo p {
-    margin-left: 1rem;
-    font-size: 0.8rem;
-  }
-
-  .consulta_img img {
-    margin-top: -30vh;
-    margin-left: 1vw;
-    border-radius: 20px;
-  }
-}
 @media only screen and (max-width: 320px) {
   .section_consulta-conteudo {
     margin-top: -42vh;

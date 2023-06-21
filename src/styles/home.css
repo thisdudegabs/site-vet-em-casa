@@ -12,14 +12,6 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
-  .section-consulta,
-  .section-vacinas,
-  .section-acupuntura {
-    margin-bottom: -20vh;
-  }
-}
-
 @media only screen and (max-width: 767px) {
   .section-consulta,
   .section-vacinas,
@@ -33,22 +25,6 @@
 }
 
 @media only screen and (max-width: 470px) {
-  .section-consulta,
-  .section-vacinas,
-  .section-acupuntura {
-    margin-bottom: -20vh;
-  }
-
-  .section-vacinas {
-    margin-top: -5vh;
-  }
-
-  .section-especialidades {
-    margin-top: -15vh;
-  }
-}
-
-@media only screen and (max-width: 431px) {
   .section-consulta,
   .section-vacinas,
   .section-acupuntura {

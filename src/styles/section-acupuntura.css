@@ -16,18 +16,6 @@
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 1399px) {
-  .section_acupuntura-conteudo {
-    font-size: 0.9rem;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  .section_acupuntura-conteudo {
-    font-size: 0.7rem;
-  }
-}
-
 @media only screen and (max-width: 991px) {
   .section_acupuntura-conteudo h2 {
     font-size: 1rem;
@@ -37,26 +25,6 @@
   .section_acupuntura-conteudo p {
     font-size: 0.6rem;
     margin-left: 0rem;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .section_acupuntura-conteudo {
-    font-size: 0.7rem;
-  }
-
-  .section_acupuntura-conteudo h2 {
-    margin-left: 10vw;
-  }
-
-  .section_acupuntura-conteudo p {
-    margin-left: 5rem;
-  }
-
-  .acupuntura_img img {
-    margin-top: -25vh;
-    margin-left: 1vw;
-    border-radius: 20px;
   }
 }
 
@@ -73,29 +41,6 @@
 
   .section_acupuntura-conteudo p {
     font-size: 0.6rem;
-    margin-left: 2rem;
-  }
-
-  .acupuntura_img img {
-    margin-top: -30vh;
-    margin-left: 1vw;
-    border-radius: 20px;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .section_acupuntura-conteudo {
-    font-size: 1rem;
-    margin-top: 2vh;
-  }
-
-  .section_acupuntura-conteudo h2 {
-    font-size: 1.5rem;
-    margin-left: 5vw;
-  }
-
-  .section_acupuntura-conteudo p {
-    font-size: 1rem;
     margin-left: 2rem;
   }
 
