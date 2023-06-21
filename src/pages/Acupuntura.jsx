@@ -8,7 +8,7 @@ import SectionAcupuntura from "../components/UI/SectionAcupuntura";
 
 const Acupuntura = () => {
   return (
-    <Helmet title="Consulta">
+    <Helmet title=" - Consulta">
       <section className="consulta_page-section">
         <Container>
           <Row>

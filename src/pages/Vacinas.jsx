@@ -9,7 +9,7 @@ import SectionVacinas from "../components/UI/SectionVacinas";
 
 const Vacinas = () => {
   return (
-    <Helmet title="Vacinas">
+    <Helmet title=" - Vacinas">
       <section className="vacina_page-section">
         <Container>
           <Row>

@@ -24,7 +24,7 @@ const Especialidades = () => {
   }, []);
 
   return (
-    <Helmet>
+    <Helmet title=" - Especialidades">
       <section>
         <Container>
           <Row>

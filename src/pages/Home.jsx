@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Helmet title="Home">
+    <Helmet title=" - Home">
       {/* ========== parte do hero ============== */}
 
       <section className="p-0 hero_slider-section">

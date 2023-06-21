@@ -18,7 +18,7 @@ const Consulta = () => {
   };
 
   return (
-    <Helmet title="Consulta">
+    <Helmet title=" - Consulta">
       <section className="consulta_page-section custom_consulta">
         <Container>
           <Row>

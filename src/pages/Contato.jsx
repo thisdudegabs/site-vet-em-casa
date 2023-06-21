@@ -8,7 +8,7 @@ import SectionContato from "../components/UI/SectionContato";
 
 const Contato = () => {
   return (
-    <Helmet title="Contato">
+    <Helmet title=" - Contato">
       <TopoDePágina title="Nos Contate!" />
       <section>
         <Container>

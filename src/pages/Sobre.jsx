@@ -9,7 +9,7 @@ import SectionValoresEmpresa from "../components/UI/SectionValoresEmpresa";
 
 const Sobre = () => {
   return (
-    <Helmet>
+    <Helmet title=" - Sobre">
       <section>
         <Container>
           <Row>
