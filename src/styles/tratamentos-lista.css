@@ -14,10 +14,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .content_costum {
-    margin-left: -40vw !important;
-  }
-
   .services_item i {
     margin-left: -25vw;
   }
@@ -27,7 +23,7 @@
     color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
-    margin-left: 4vw !important;
+    margin-left: 10vw !important;
   }
 
   .service_content {
@@ -35,13 +31,9 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .content_costum {
-    margin-left: -50vw !important;
-  }
-
+@media only screen and (max-width: 991px) {
   .services_item i {
-    margin-left: -55vw;
+    margin-left: -40vw;
   }
 
   .section_description-costum {
@@ -49,12 +41,41 @@
     color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
-    margin-left: 20vw !important;
-    margin-right: 20vw !important;
+    margin-left: 10vw !important;
   }
 
   .service_content {
-    margin-left: -55vw !important;
+    margin-left: -38vw !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services_item i {
+    margin-left: -55vw;
+  }
+
+  .section_description-costum {
+    margin-left: 28vw !important;
+  }
+
+  .service_content {
+    margin-left: -65vw !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .services_item i {
+    margin-left: -30vw;
+  }
+
+  .section_description-costum {
+    margin-left: 28vw !important;
+    font-size: 0.8rem;
+  }
+
+  .service_content {
+    font-size: 1rem;
+    margin-left: -49vw !important;
   }
 }
 

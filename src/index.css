@@ -10,6 +10,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* ==========estilo base ========== */
 h1,
 h2,

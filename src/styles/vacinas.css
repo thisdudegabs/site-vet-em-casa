@@ -30,6 +30,12 @@
   }
 }
 
+@media only screen and (max-width: 1199px) {
+  .btn {
+    left: 15vw !important;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .btn {
     margin-top: 2vh;
@@ -60,8 +66,35 @@
     margin-top: 2vh;
   }
 }
+
+@media only screen and (max-width: 991px) {
+  .btn {
+    left: 10vw !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btn {
+    left: 25vw !important;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .vacina_page-section {
     margin-top: 30vh;
+  }
+
+  .btn {
+    left: 15vw !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .vacina_page-section {
+    margin-top: 30vh;
+  }
+
+  .btn {
+    left: 10vw !important;
   }
 }

@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 1199px) {
   .section-wrapper {
-    margin-top: -5vh;
+    margin-top: 10vh;
   }
 
   .section_vacina-conteudo {
@@ -39,6 +39,7 @@
   }
 
   .vacina_img img {
+    margin-top: -25vh;
     margin-left: 1vw;
     border-radius: 20px;
   }
@@ -90,7 +91,7 @@
   }
 
   .vacina_img img {
-    margin-top: -25vh;
+    margin-top: -22vh;
     margin-left: 1vw;
     border-radius: 20px;
   }
