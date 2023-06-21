@@ -28,14 +28,7 @@ const ServiceItem = ({ item }) => (
 
       <div className="service_content content_costum-vantagens">
         <h6 className="text-center">{item.title}</h6>
-        <p
-          className="section_description description-vantagens compact"
-          style={{
-            marginLeft: "200px",
-            marginRight: "100px",
-            maxWidth: "1150px",
-          }}
-        >
+        <p className="section_description description-vantagens compact">
           {item.desc}
         </p>
       </div>

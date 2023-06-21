@@ -28,7 +28,7 @@ const ServiceItem = ({ item }) => {
   }
 
   return (
-    <Col lg="4" md="4" sm="6" className="mb-3">
+    <Col lg="4" md="4" sm="12" className="mb-3">
       <div className="services_item">
         <span className={iconClass}>
           <img src={iconImg} alt="" className="icon-img" />

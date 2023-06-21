@@ -5,17 +5,10 @@ import "../../styles/section-vacinas.css";
 
 const SectionVacinas = ({ vacinaClass }) => {
   return (
-    <section
-      className="section_vacina"
-      style={
-        vacinaClass === "VacinaPage"
-          ? { marginTop: "0px" }
-          : { marginTop: "150px" }
-      }
-    >
+    <section className="section_vacina">
       <Container className="section-wrapper">
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" sm="12">
             <div className="section_vacina-conteudo">
               <h2 className="section_title">
                 A vacinação do seu Pet está em dia?
@@ -36,7 +29,7 @@ const SectionVacinas = ({ vacinaClass }) => {
             </div>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" sm="12">
             <div className="vacina_img">
               <img src={ImgVacina} alt="" className="w-100" />
             </div>
